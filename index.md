@@ -27,15 +27,15 @@ This workshop is not an endorsement of Taguette; there are many options for qual
 - Passanges coded with different tags have the same colour in Taguette. 
 - Only basic analysis can be done in Taguette. External tools, like Microsoft Excel, can be used for more advanced analysis are covered in this workshop.
 
-## Learning objectives - UPDATE FOR THE NEW TOOL
+## Learning objectives
 
 At the end of this workshop, you will be able to:
 
 1.  Explain the 4 key considerations of data visualizations:
-    - asdf
-    - asdf
-    - asdf
-    - asdf
+    - Audience
+    - Form
+    - Relationship
+    - Design
 2.  Import cleaned data into Tableau
 3.  Navigate the layout of the Tableau interface
 4.  Create 4 different charts and visualizations
