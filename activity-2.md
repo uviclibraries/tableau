@@ -45,19 +45,19 @@ We are continuing to use the Global Superstire Orders 2016 Excel spreadsheet
     - **Your final output should look like this:**
 4.  **Building Sales Graphs for the Interactive Dashboard**<br>
     1. **Profit by Year Graph**
-        - asdf
-        - asdf
-        - asdf
-        - asdf
+        + asdf
+        + asdf
+        + asdf
+        + asdf
     2. **Orders by Person Graph**
-        - asdf
-        - asdf
-        - asdf
-        - asdf
+        + asdf
+        + asdf
+        + asdf
+        + asdf
     3. **Date/Category/Profit Graph**
-        - asdf
-        - asdf
-        - asdf
-        - asdf
+        + asdf
+        + asdf
+        + asdf
+        + asdf
 
 [NEXT STEP: Creating Your First Dashboard (Activity 3)](activity-3.html){: .btn .btn-blue }
