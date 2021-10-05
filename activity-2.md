@@ -44,17 +44,17 @@ We are continuing to use the Global Superstire Orders 2016 Excel spreadsheet
     - Rename the title to **Quarterly Profit and Sales by Product**
     - **Your final output should look like this:**
 4.  **Building Sales Graphs for the Interactive Dashboard**<br>
-    4.1. **Profit by Year Graph**
+    1. **Profit by Year Graph**
         - asdf
         - asdf
         - asdf
         - asdf
-    4.2. **Orders by Person Graph**
+    2. **Orders by Person Graph**
         - asdf
         - asdf
         - asdf
         - asdf
-    4.3. **Date/Category/Profit Graph**
+    3. **Date/Category/Profit Graph**
         - asdf
         - asdf
         - asdf
