@@ -43,7 +43,7 @@ We are continuing to use the Global Superstire Orders 2016 Excel spreadsheet
     - Click the **Show Me** icon (top-right) and select the **dual combination chart** (3rd up from the bottom right). Click again on the **Show Me** icon again to close it
     - Rename the title to **Quarterly Profit and Sales by Product**
     - **Your final output should look like this:**
-4.  **Building Sales Graphs for the Interactive Dashboard**
+4.  **Building Sales Graphs for the Interactive Dashboard**<br>
     4.1. **Profit by Year Graph**
         - asdf
         - asdf
