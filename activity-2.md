@@ -35,6 +35,29 @@ We are continuing to use the Global Superstire Orders 2016 Excel spreadsheet
     - Click on the downward arrow in the Legend box and select **Edit Colors** to choose an appropriate colour (e.g. blue teal). Click on **Color** in the Marks box and select **Edit Colors**
     - **Your final output should look like this:**
 3.  **Line & Bar Chart (Dual Combo): Quarterly Profit and Number of Sales by Product 2012-2015**
+    - Create a new sheet by clicking on the ***image*** icon in the page-bottom menu
+    - From the dimensions list, right-click on **Order Date** and drag to the columns shelf. From the dialogue box that appears, select the **QUARTER(Order Date)** measure option (green w/ calendar & clock icon) (see figure) ***image***
+    - From the measures list, right-click on **Sales** and drag to the rows shelf. Select **CNT(Sales)** from the pop-up box
+    - Again, from the measures list, right-click on **Profit** and drag to the rows shelf, then select **SUM(Profit)**
+    - From the dimensions list, left-click on **Category** and drag to the rows shelf
+    - Click the **Show Me** icon (top-right) and select the **dual combination chart** (3rd up from the bottom right). Click again on the **Show Me** icon again to close it
+    - Rename the title to **Quarterly Profit and Sales by Product**
+    - **Your final output should look like this:**
 4.  **Building Sales Graphs for the Interactive Dashboard**
+    4.1. **Profit by Year Graph**
+        - asdf
+        - asdf
+        - asdf
+        - asdf
+    4.2. **Orders by Person Graph**
+        - asdf
+        - asdf
+        - asdf
+        - asdf
+    4.3. **Date/Category/Profit Graph**
+        - asdf
+        - asdf
+        - asdf
+        - asdf
 
 [NEXT STEP: Creating Your First Dashboard (Activity 3)](activity-3.html){: .btn .btn-blue }
