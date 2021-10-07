@@ -20,20 +20,41 @@ _Please note that creating a Tableau account and using the application requires 
 2.  **Getting Started With Data**
     - In Connections Pane (left), click **Microsoft Excel**. Open the **Global Superstore Orders 2016.xlsx** file you downloaded to your computer or, if you haven't already, [download it now](https://goo.gl/yTDhMB){:target="_blank"}
     - In the Connections Pane (below), we see all the sheets in the Excel file. Drag the **Orders** sheet into the flow pane as shown
+
+    <img src="images\logo.png" alt="tableau logo" style="width:720px;">
+
     - The **Orders** sheet can be renamed by simply double-clicking on the column name if it is not clear
+    
+    <img src="images\logo.png" alt="tableau logo" style="width:720px;">
+    
     - You can also change the default data type by clicking on the data icon as shown. There are 4 data types: numeric (***image***), text (***image***), geospatial (***image***), date(***image***), and date-and-time (***image***)
+
+    <img src="images\logo.png" alt="tableau logo" style="width:720px;">
+
 3.  **Working With Data**
     - Click the **Sheet 1** tab on the bottom toolbar to create our first worksheet
+    
+    <img src="images\logo.png" alt="tableau logo" style="width:720px;">
+    
     - We see column names on the left side menu, broken up into dimensions (blue) and measures (green). Dimensions are fields that cannot be aggregated; Measures are fields that can be measured, aggregated, or used for mathematical operations
     - Let's get the relationship between two variables: Sales (in Measures), and Order Date (in Dimensions)
-        - Right-click and drag the **Sales** measure into the **Rows** shelf (top)
+        - Click and drag the **Sales** measure into the **Rows** shelf (top)
         - In the dialogue box that appears, select AVG(Sales) for average sales
-        - Right-click and drag the **Order Date** dimension into the **Columns** shelf (top)
-        - In the dialogue box that appears, select YEAR(Order Date). In Tableau, it will automatically visualize it
+        - Click and drag the **Order Date** dimension into the **Columns** shelf (top)
+        
+        <img src="images\logo.png" alt="tableau logo" style="width:720px;">
+        <img src="images\logo.png" alt="tableau logo" style="width:720px;">
+        
+        - In the dialogue box that appears, select YEAR(Order Date). In Tableau, it will automatically create a visualization
 
     - Click the **"+"** in the YEAR(Order Date) blue pill and drill down to get quarters
     - Click **Show Me** (top right) to display the different plot types that Tableau recommends. Try a few and think about their effect on the 4 data visualization principles
+    
+    <img src="images\logo.png" alt="tableau logo" style="width:720px;">
+    
     - The **Marks** card area (to the left of the visualization charts) is where you can control the visual features of your plot, Try changing the colour and size
     - You can also control the visual appearance of your plot according to dimensions of interest. For example, right-click drag the **Category** in the dialigue box that appears. Please note that the dialog box does not always appear
+
+    <img src="images\logo.png" alt="tableau logo" style="width:720px;">
 
 [NEXT STEP: Building Data Visualizations (Activity 2)](activity-2.html){: .btn .btn-blue }
