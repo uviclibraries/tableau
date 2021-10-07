@@ -44,29 +44,29 @@ We are continuing to use the Global Superstire Orders 2016 Excel spreadsheet
     - Rename the title to **Quarterly Profit and Sales by Product**
     - **Your final output should look like this:**
 4.  **Building Sales Graphs for the Interactive Dashboard**<br>
-    - **Profit by Year Graph**
-        + Return to Data Source and drag the "People" sheet to the same area as "Orders"
-        + Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
-        + Click on **Ship Date** and drag it to the **Columns** as well
-        + Click on **Profit** and drag it to the **Rows**. It will automatically produce **SUM(Profit)**
-        + From the **Tables**, grab **Person** and drag it into the **Filters** section and click **OK** in the pop-up window. This will allow us to filter the graph by a specific person
-        + From the **Tables**, grab **Ship Date** and drag it into the **Color** section in the **Marks** pane
-        + The last step is to click on **Show Me** in the top-right corner and select the **Side-by-Side Bars** option. After that, right-click on the name of your table at the bottom of the pane and rename it **Profit by Year**
-        + **Your final result should look like this:**
-    - **Orders by Person Graph**
-        + Click on the **New Worksheet** tab at the bottom of the graph
-        + From the **Tables** select **Person** and drag it onto **Rows**
-        + from the **Tables** select **Sales** and drag it onto **Text** in the **Marks** bar. The goal here is to show the numeric value without any calculations (Tableau will auromatically convert the numbers to SUM)
-        + Right-click on your **Sheet** name at the bottom of the pane and rename it **Orders by Person**
-        + **Your end result should look like this:**
-    - **Date/Category/Profit Graph**
-        + Click on the **New Worksheet** tab at the bottom of the graph
-        + Click and drag **Ship Date**, **Category** and **Sub-Category** into the **Columns**
-        + Click and drag **Profit** into **Rows**
-        + Your Columns and Rows should look like this:
-        + Click and drag **Sub-Category** onto the **Color** pane in the **Marks** section
-        + Click and drag **Country** into the **Filters** section. In the pop-up window click **All** and click **OK**
-        + Rename your table **Date/Category/Profit
-        + Your graph should look like this:
+    1.  **Profit by Year Graph**
+        1.  Return to Data Source and drag the "People" sheet to the same area as "Orders"
+        2.  Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
+        3.  Click on **Ship Date** and drag it to the **Columns** as well
+        4.  Click on **Profit** and drag it to the **Rows**. It will automatically produce **SUM(Profit)**
+        5.  From the **Tables**, grab **Person** and drag it into the **Filters** section and click **OK** in the pop-up window. This will allow us to filter the graph by a specific person
+        6.  From the **Tables**, grab **Ship Date** and drag it into the **Color** section in the **Marks** pane
+        7.  The last step is to click on **Show Me** in the top-right corner and select the **Side-by-Side Bars** option. After that, right-click on the name of your table at the bottom of the pane and rename it **Profit by Year**
+        8.  **Your final result should look like this:**
+    2.  **Orders by Person Graph**
+        1.  Click on the **New Worksheet** tab at the bottom of the graph
+        2.  From the **Tables** select **Person** and drag it onto **Rows**
+        3.  From the **Tables** select **Sales** and drag it onto **Text** in the **Marks** bar. The goal here is to show the numeric value without any calculations (Tableau will auromatically convert the numbers to SUM)
+        4.  Right-click on your **Sheet** name at the bottom of the pane and rename it **Orders by Person**
+        5.  **Your end result should look like this:**
+    3.  **Date/Category/Profit Graph**
+        1.  Click on the **New Worksheet** tab at the bottom of the graph
+        2.  Click and drag **Ship Date**, **Category** and **Sub-Category** into the **Columns**
+        3.  Click and drag **Profit** into **Rows**
+        4.  Your Columns and Rows should look like this:
+        5.  Click and drag **Sub-Category** onto the **Color** pane in the **Marks** section
+        6.  Click and drag **Country** into the **Filters** section. In the pop-up window click **All** and click **OK**
+        7.  Rename your table **Date/Category/Profit
+        8.  Your graph should look like this:
 
 [NEXT STEP: Creating Your First Dashboard (Activity 3)](activity-3.html){: .btn .btn-blue }
