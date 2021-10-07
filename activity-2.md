@@ -44,7 +44,7 @@ We are continuing to use the Global Superstire Orders 2016 Excel spreadsheet
     - Rename the title to **Quarterly Profit and Sales by Product**
     - **Your final output should look like this:**
 4.  **Building Sales Graphs for the Interactive Dashboard**<br>
-    1.  **Profit by Year Graph**
+    1.  **Profit by Year Graph** aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
         -   Return to Data Source and drag the "People" sheet to the same area as "Orders"
         -   Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
         -   Click on **Ship Date** and drag it to the **Columns** as well
