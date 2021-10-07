@@ -44,7 +44,7 @@ We are continuing to use the Global Superstire Orders 2016 Excel spreadsheet
     - Rename the title to **Quarterly Profit and Sales by Product**
     - **Your final output should look like this:**
 4.  **Building Sales Graphs for the Interactive Dashboard**<br>
-    1. **Profit by Year Graph**
+    - **Profit by Year Graph**
         + Return to Data Source and drag the "People" sheet to the same area as "Orders"
         + Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
         + Click on **Ship Date** and drag it to the **Columns** as well
@@ -53,13 +53,13 @@ We are continuing to use the Global Superstire Orders 2016 Excel spreadsheet
         + From the **Tables**, grab **Ship Date** and drag it into the **Color** section in the **Marks** pane
         + The last step is to click on **Show Me** in the top-right corner and select the **Side-by-Side Bars** option. After that, right-click on the name of your table at the bottom of the pane and rename it **Profit by Year**
         + **Your final result should look like this:**
-    2. **Orders by Person Graph**
+    - **Orders by Person Graph**
         + Click on the **New Worksheet** tab at the bottom of the graph
         + From the **Tables** select **Person** and drag it onto **Rows**
         + from the **Tables** select **Sales** and drag it onto **Text** in the **Marks** bar. The goal here is to show the numeric value without any calculations (Tableau will auromatically convert the numbers to SUM)
         + Right-click on your **Sheet** name at the bottom of the pane and rename it **Orders by Person**
         + **Your end result should look like this:**
-    3. **Date/Category/Profit Graph**
+    - **Date/Category/Profit Graph**
         + Click on the **New Worksheet** tab at the bottom of the graph
         + Click and drag **Ship Date**, **Category** and **Sub-Category** into the **Columns**
         + Click and drag **Profit** into **Rows**
