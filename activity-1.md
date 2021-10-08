@@ -28,7 +28,7 @@ _Please note that creating a Tableau account and using the application requires 
     
     <img src="images\activity-1\data-grid.png" alt="data grid example" style="width:720px;">
     
-    - You can also change the default data type by clicking on the data icon as shown. There are 5 data types: numeric (<img src="images\activity-1\mini-icon-1.png" alt="numeric symbol" style="width:45px;">), text (<img src="images\activity-1\mini-icon-2.png" alt="text symbol" style="width:45px;">), geospatial (<img src="images\activity-1\mini-icon-3.png" alt="geospacial symbol" style="width:45px;">), date(<img src="images\activity-1\mini-icon-4.png" alt="date symbol" style="width:45px;">), and date-and-time (<img src="images\activity-1\mini-icon-5.png" alt="date and time symbol" style="width:45px;">)
+    - You can also change the default data type by clicking on the data icon as shown. There are 5 data types: numeric (<img src="images\activity-1\mini-icon-1.png" alt="numeric symbol" style="width:25px;">), text (<img src="images\activity-1\mini-icon-2.png" alt="text symbol" style="width:25px;">), geospatial (<img src="images\activity-1\mini-icon-3.png" alt="geospacial symbol" style="width:25px;">), date(<img src="images\activity-1\mini-icon-4.png" alt="date symbol" style="width:25px;">), and date-and-time (<img src="images\activity-1\mini-icon-5.png" alt="date and time symbol" style="width:25px;">)
 
     <img src="images\activity-1\import-drag.gif" alt="import example" style="width:720px;">
 
