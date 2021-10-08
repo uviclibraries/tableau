@@ -14,11 +14,11 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 1.  **Treemap: Total Profit by Region**
     - Create a new sheet by clicking on the <img src="images\activity-2\icon.png" alt="new sheet icon" style="width:30px;"> icon on the page-bottom menu
 
-    <img src="images\activity-3\rows.png" alt="columns and rows" style="float:right;width:240px;">
+    <img src="images\activity-2\rows.png" alt="columns and rows" style="float:right;width:240px;">
 
     - From the dimensions list, left-click on **Region** and drag it up to the **Rows** shelf
     - From the measures list, left-click on **Profit** and drag it up to the **Columns** shelf. It will default to **SUM(Profit)** and a bar chart will diaplay showing both negative and positive profits
-    - Click on the **Show Me** icon <img src="images\activity-3\show-me.png" alt="show me icon" style="width:60px;"> in the top right corner of the screen to see the suggested visualizations
+    - Click on the **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> in the top right corner of the screen to see the suggested visualizations
     - Click on **treemaps** (4th one down on left)
     - A grey pill stating **3 negative** should appear st the bottom right corner. Click on this pill to view the two options for dealing with the negative values: **Filter Data** or **Use Absolute Values**
     - By selecting **Use Absolute Values**, the negative values will appear as the same size as positive values but in a different colour
@@ -33,16 +33,19 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
 2.  **World Map: Total Sales by Country**
     - Create a new sheet by clicking on the <img src="images\activity-2\icon.png" alt="new sheet icon" style="width:30px;"> icon on the page-bottom menu
+
+    <img src="images\activity-2\calculated-field.png" alt="calculated field menu" style="float:right;width:360px;">
+
     - From the dimensions list, right-click and drag **Country** to the central **drop field here** area in the middle of the screen. Select **Country** from dialigue box that appears
-
-    <img src="images\activity-2\calculated-field.png" alt="calculated field menu" style="float:right;width:240px;">
-
     - To create a new measure, click **Analysis** on the top menu bar, and select **Create Calculated Field** from the drop-down menu. In the pop-up text box, rename the default title **Calculation1** to **Profit per Item**. The text box below allows formulas to be written, combining numerical operators and measures together. Left-click drag the **Profit** measure into the text box, type the division symbol ( / ), them left-click drag the **Quantity** measures, calculating profit per item
 
     <img src="images\activity-2\calculated-field.gif" alt="creating a calculated field" style="width:720px;">
 
     - ***change here: different on MAC slightly***
-    - From the measures list, right-click and drag the new **Profit per Item** measure to the Color icon <img src="images\activity-3\color-icon.png" alt="color icon" style="width:30px;"> in the Marks box. Select **AVG(Profit per Item)**. Now each country on the map will be colour-coded by the measure
+
+    <img src="images\activity-2\color-icon.png" alt="color icon" style="float:right;width:120px;">
+
+    - From the measures list, right-click and drag the new **Profit per Item** measure to the Color icon (see right) in the Marks box. Select **AVG(Profit per Item)**. Now each country on the map will be colour-coded by the measure
     - To scroll around the world map, click on the black right-facing arrowhead in the zoom menu bar at the rop-left corner of the map, and select the crossed arrows. This will allow users to pan across the map
     - Let's replace our calculated measure. Right-click the **AVG(Profit per Item)** green pill from the marks box and select **remove**
 
@@ -82,7 +85,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 4.  **Building Sales Graphs for the Interactive Dashboard**<br>
     -   **Profit by Year Graph**
         
-        <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:240px;">
+        <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:200px;">
         
         1.  Return to Data Source and drag the "People" sheet to the same area as "Orders"
         2.  Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
@@ -93,7 +96,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         4.  Click on **Profit** and drag it to the **Rows**. It will automatically produce **SUM(Profit)**
         5.  From the **Tables**, grab **Person** and drag it into the **Filters** section and click **OK** in the pop-up window. This will allow us to filter the graph by a specific person
         
-        <img src="images\activity-2\show-me-advanced.png" alt="show me menu" style="width:240px;">
+        <img src="images\activity-2\show-me-advanced.png" alt="show me menu" style="width:280px;">
         
         6.  From the **Tables**, grab **Ship Date** and drag it into the **Color** section in the **Marks** pane
         7.  The last step is to click on **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> in the top-right corner and select the **Side-by-Side Bars** option. After that, right-click on the name of your table at the bottom of the pane and rename it **Profit by Year**
@@ -106,7 +109,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
     -   **Orders by Person Graph**
 
-        <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:240px;">
+        <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:200px;">
 
         1.  Click on the **New Worksheet** tab at the bottom of the graph
         2.  From the **Tables** select **Person** and drag it onto **Rows**
