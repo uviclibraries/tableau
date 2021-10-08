@@ -125,14 +125,14 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
             <img src="images\activity-2\orders-by-person.png" alt="orders by person graph final output" style="width:720px;">
 
-    <img src="images\activity-2\sub-category.png" alt="filters and marks menus" style="float:right;width:200px;">
+    <img src="images\activity-2\sub-category.png" alt="filters and marks menus" style="float:right;width:120px;">
     -   **Date/Category/Profit Graph**
         1.  Click on the **New Worksheet** tab at the bottom of the graph
         2.  Click and drag **Ship Date**, **Category** and **Sub-Category** into the **Columns**
         3.  Click and drag **Profit** into **Rows**
         4.  Your Columns and Rows should look like this:
         
-            <img src="images\activity-2\columns-rows-4(3).png" alt="columns and rows logo" style="width:400px;">
+            <img src="images\activity-2\columns-rows-4(3).png" alt="columns and rows logo" style="width:480px;">
         
         5.  Click and drag **Sub-Category** onto the **Color** pane in the **Marks** section
         6.  Click and drag **Country** into the **Filters** section. In the pop-up window click **All** and click **OK**
