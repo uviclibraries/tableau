@@ -35,7 +35,7 @@ _Please note that creating a Tableau account and using the application requires 
 3.  **Working With Data**
     - Click the **Sheet 1** tab on the bottom toolbar to create our first worksheet
     
-    <img src="images\logo.png" alt="tableau logo" style="width:720px;">
+    <img src="images\activity-1\tab.png" alt="bottom toolbar" style="width:480px;">
     
     - We see column names on the left side menu, broken up into dimensions (blue) and measures (green). Dimensions are fields that cannot be aggregated; Measures are fields that can be measured, aggregated, or used for mathematical operations
     - Let's get the relationship between two variables: Sales (in Measures), and Order Date (in Dimensions)
