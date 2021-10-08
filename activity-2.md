@@ -83,10 +83,10 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
     <img src="images\activity-2\linebar.png" alt="final linebar output" style="width:720px;">
 
 4.  **Building Sales Graphs for the Interactive Dashboard**<br>
+    
+    <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:200px;">
+    
     -   **Profit by Year Graph**
-        
-        <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:200px;">
-        
         1.  Return to Data Source and drag the "People" sheet to the same area as "Orders"
         2.  Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
         
@@ -107,10 +107,10 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
             <img src="images\activity-2\side-by-side-bars.png" alt="side by side bar graph final output" style="width:720px;">
 
+    
+    <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:200px;">
+    
     -   **Orders by Person Graph**
-
-        <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:200px;">
-
         1.  Click on the **New Worksheet** tab at the bottom of the graph
         2.  From the **Tables** select **Person** and drag it onto **Rows**
         3.  From the **Tables** select **Sales** and drag it onto **Text** in the **Marks** bar. The goal here is to show the numeric value without any calculations (Tableau will auromatically convert the numbers to SUM)
