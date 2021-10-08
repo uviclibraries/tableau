@@ -108,7 +108,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
             <img src="images\activity-2\side-by-side-bars.png" alt="side by side bar graph final output" style="width:720px;">
 
     
-    <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:180px;">
+    <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:200px;">
     
     -   **Orders by Person Graph**
         1.  Click on the **New Worksheet** tab at the bottom of the graph
@@ -136,7 +136,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         
         5.  Click and drag **Sub-Category** onto the **Color** pane in the **Marks** section
         6.  Click and drag **Country** into the **Filters** section. In the pop-up window click **All** and click **OK**
-        7.  Rename your table **Date/Category/Profit
+        7.  Rename your table "Date/Category/Profit"
         
             <img src="images\activity-2\date-category-profit.gif" alt="date category profit graph" style="width:720px;">
         
