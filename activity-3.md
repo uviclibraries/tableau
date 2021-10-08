@@ -16,9 +16,15 @@ If you and your group have any questions or get stuck as you work through this i
     - The various sheets you have created in Activity 2 will all be displayed on the left side toolbar, under the **Sheets** heading
     - Drag and drop the map visualization anywhere on the dashboard.
     - Drag and drop the bar chart and line graph visualization onto the bottom half of the dashbiard. Both visualizations should now be displayed top to bottom.
+
+    <img src="images\logo.png" alt="tableau logo" style="width:720px;">
+
 2.  Creating a visualization filter
     - Click the white space on the top of the map visualization. Icons should appear on the rop right corner. Select the filter icon to enablethe map to operate as a filter
     - Click on any of the countries on the map to automatically adjust the sales and profit data to reflect the selected country on the figure below
+
+    <img src="images\logo.png" alt="tableau logo" style="width:720px;">
+
 3.  Saving your figures and dashboard to Tableau public
     - Click **File > Save to Tableau Public As...**
     - Sign in to the login screen that appears. To save the visualizations online, you must create an account
@@ -26,6 +32,8 @@ If you and your group have any questions or get stuck as you work through this i
     - Click **File > Save as** and save to the desired location
 
 **Your final output should look like this:**
+
+<img src="images\logo.png" alt="tableau logo" style="width:720px;">
 
 ## Part 2
 This part will cover the creation of an interactive dashboard based on the previously created graphs
