@@ -19,7 +19,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     <img src="images\activity-3\1-setup.gif" alt="building a dashboard" style="width:720px;">
 
-    <img src="images\activity-3\1-filter-icon.png" alt="filter icon" style="float:right;width:120px;">
+    <img src="images\activity-3\1-filter-icon-cropped.png" alt="filter icon" style="float:right;width:120px;">
 
 2.  Creating a visualization filter
     - Click the white space on the top of the map visualization. Icons should appear on the rop right corner. Select the filter icon to enablethe map to operate as a filter
