@@ -43,7 +43,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
     - ***change here: different on MAC slightly***
 
-    <img src="images\activity-2\color-icon.png" alt="color icon" style="float:right;width:120px;">
+    <img src="images\activity-2\color-icon.png" alt="color icon" style="float:right;width:90px;">
 
     - From the measures list, right-click and drag the new **Profit per Item** measure to the Color icon (see right) in the Marks box. Select **AVG(Profit per Item)**. Now each country on the map will be colour-coded by the measure
     - To scroll around the world map, click on the black right-facing arrowhead in the zoom menu bar at the rop-left corner of the map, and select the crossed arrows. This will allow users to pan across the map
@@ -90,22 +90,22 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         1.  Return to Data Source and drag the "People" sheet to the same area as "Orders"
         2.  Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
         
-        <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:360px;">
+            <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:360px;">
         
         3.  Click on **Ship Date** and drag it to the **Columns** as well
         4.  Click on **Profit** and drag it to the **Rows**. It will automatically produce **SUM(Profit)**
         5.  From the **Tables**, grab **Person** and drag it into the **Filters** section and click **OK** in the pop-up window. This will allow us to filter the graph by a specific person
         
-        <img src="images\activity-2\show-me-advanced.png" alt="show me menu" style="width:280px;">
+            <img src="images\activity-2\show-me-advanced.png" alt="show me menu" style="width:280px;">
         
         6.  From the **Tables**, grab **Ship Date** and drag it into the **Color** section in the **Marks** pane
         7.  The last step is to click on **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> in the top-right corner and select the **Side-by-Side Bars** option. After that, right-click on the name of your table at the bottom of the pane and rename it **Profit by Year**
         
-        <img src="images\activity-2\side-by-side-bars.gif" alt="side by side bar graph" style="width:720px;">
+            <img src="images\activity-2\side-by-side-bars.gif" alt="side by side bar graph" style="width:720px;">
         
         8.  **Your final result should look like this:**
 
-        <img src="images\activity-2\side-by-side-bars.png" alt="side by side bar graph final output" style="width:720px;">
+            <img src="images\activity-2\side-by-side-bars.png" alt="side by side bar graph final output" style="width:720px;">
 
     -   **Orders by Person Graph**
 
@@ -115,15 +115,15 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         2.  From the **Tables** select **Person** and drag it onto **Rows**
         3.  From the **Tables** select **Sales** and drag it onto **Text** in the **Marks** bar. The goal here is to show the numeric value without any calculations (Tableau will auromatically convert the numbers to SUM)
         
-        <img src="images\activity-2\text.png" alt="marks menu" style="float:right;width:360px;">
+            <img src="images\activity-2\text.png" alt="marks menu" style="float:right;width:360px;">
         
         4.  Right-click on your **Sheet** name at the bottom of the pane and rename it **Orders by Person**
         
-        <img src="images\activity-2\orders-by-person.gif" alt="orders by person graph example" style="width:720px;">
+            <img src="images\activity-2\orders-by-person.gif" alt="orders by person graph example" style="width:720px;">
         
         5.  **Your end result should look like this:**
 
-        <img src="images\activity-2\orders-by-person.png" alt="orders by person graph final output" style="width:720px;">
+            <img src="images\activity-2\orders-by-person.png" alt="orders by person graph final output" style="width:720px;">
 
     -   **Date/Category/Profit Graph**
         1.  Click on the **New Worksheet** tab at the bottom of the graph
@@ -131,16 +131,16 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         3.  Click and drag **Profit** into **Rows**
         4.  Your Columns and Rows should look like this:
         
-        <img src="images\activity-2\columns-rows-4(3).png" alt="columns and rows logo" style="width:720px;"><br>
-        <img src="images\activity-2\sub-category.png" alt="filters and marks menus" style="width:240px;">
+            <img src="images\activity-2\columns-rows-4(3).png" alt="columns and rows logo" style="width:720px;"><br>
+            <img src="images\activity-2\sub-category.png" alt="filters and marks menus" style="width:240px;">
         
         5.  Click and drag **Sub-Category** onto the **Color** pane in the **Marks** section
         6.  Click and drag **Country** into the **Filters** section. In the pop-up window click **All** and click **OK**
         7.  Rename your table **Date/Category/Profit
         
-        <img src="images\activity-2\date-category-profit.gif" alt="date category profit graph" style="width:720px;">
+            <img src="images\activity-2\date-category-profit.gif" alt="date category profit graph" style="width:720px;">
         
-        8.  Your graph should look like this:
+        8.  **Your graph should look like this:**
 
         <img src="images\activity-2\date-category-profit.png" alt="date category profit graph final output" style="width:720px;">
 
