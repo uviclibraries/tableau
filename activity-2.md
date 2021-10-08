@@ -14,7 +14,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 1.  **Treemap: Total Profit by Region**
     - Create a new sheet by clicking on the <img src="images\activity-2\icon.png" alt="new sheet icon" style="width:30px;"> icon on the page-bottom menu
 
-    <img src="images\activity-2\rows.png" alt="columns and rows" style="float:right;width:240px;">
+    <img src="images\activity-2\rows.png" alt="columns and rows" style="float:right;width:360px;">
 
     - From the dimensions list, left-click on **Region** and drag it up to the **Rows** shelf
     - From the measures list, left-click on **Profit** and drag it up to the **Columns** shelf. It will default to **SUM(Profit)** and a bar chart will diaplay showing both negative and positive profits
@@ -51,7 +51,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
     <img src="images\activity-2\color.gif" alt="color coding" style="width:720px;">
 
-    - From the measures list, right-click on **Sales** and drag to the Color icon <img src="images\activity-2\color-icon.png" alt="color icon" style="width:30px;"> in the Marks box. Select **SUM(Sales)**
+    - From the measures list, right-click on **Sales** and drag to the Color icon in the Marks box. Select **SUM(Sales)**
     - Edit map title and rename it **Total Sales by Country**
     - Click on the downward arrow in the Legend box and select **Edit Colors** to choose an appropriate colour (e.g. blue teal). Click on **Color** in the Marks box and select **Edit Colors**
 
@@ -113,10 +113,10 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
         1.  Click on the **New Worksheet** tab at the bottom of the graph
         2.  From the **Tables** select **Person** and drag it onto **Rows**
+        3.  From the **Tables** select **Sales** and drag it onto **Text** in the **Marks** bar. The goal here is to show the numeric value without any calculations (Tableau will auromatically convert the numbers to SUM)
         
         <img src="images\activity-2\text.png" alt="marks menu" style="float:right;width:360px;">
         
-        3.  From the **Tables** select **Sales** and drag it onto **Text** in the **Marks** bar. The goal here is to show the numeric value without any calculations (Tableau will auromatically convert the numbers to SUM)
         4.  Right-click on your **Sheet** name at the bottom of the pane and rename it **Orders by Person**
         
         <img src="images\activity-2\orders-by-person.gif" alt="orders by person graph example" style="width:720px;">
