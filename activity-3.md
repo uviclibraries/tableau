@@ -11,13 +11,15 @@ If you and your group have any questions or get stuck as you work through this i
 
 ## Part 1
 1.  Building a data dashboard
-    - Click the Dashboard icon ***image*** on the bottom toolbar to open a dashboard worksheet.
+    - Click the Dashboard icon <img src="images\activity-3\icon-dashboard.png" alt="new dashboard icon" style="width:30px;"> on the bottom toolbar to open a dashboard worksheet.
     - On the left side toolbar, under the **Size** heading, click the drop-down arrow to the right of **Range** and select **Automatic**. This will adjust to the size of your dashboard to fit the size of any screen it is displayed on
     - The various sheets you have created in Activity 2 will all be displayed on the left side toolbar, under the **Sheets** heading
     - Drag and drop the map visualization anywhere on the dashboard.
     - Drag and drop the bar chart and line graph visualization onto the bottom half of the dashbiard. Both visualizations should now be displayed top to bottom.
 
     <img src="images\activity-3\1-setup.gif" alt="building a dashboard" style="width:720px;">
+
+<img src="images\activity-3\1-filter-icon.png" alt="filter icon" style="float:right;width:120px;">
 
 2.  Creating a visualization filter
     - Click the white space on the top of the map visualization. Icons should appear on the rop right corner. Select the filter icon to enablethe map to operate as a filter
@@ -37,7 +39,10 @@ If you and your group have any questions or get stuck as you work through this i
 
 ## Part 2
 This part will cover the creation of an interactive dashboard based on the previously created graphs
--   Click the **Dashboard** icon ***image*** on the bottom toolbar to open a dashboard worksheet
+
+<img src="images\activity-3\2-dashboard-menu.png" alt="dashboard menu" style="float:right;width:360px;">
+
+-   Click the **Dashboard** icon <img src="images\activity-3\icon-dashboard.png" alt="new dashboard icon" style="width:30px;"> on the bottom toolbar to open a dashboard worksheet
 -   On the left side under **Size**, click on the drop-down arrow to the right of **Range** and select **Automatic**. This will allow you to have a full-screen dashboard
 
 <img src="images\logo.png" alt="tableau logo" style="width:720px;">
@@ -49,7 +54,10 @@ This part will cover the creation of an interactive dashboard based on the previ
 <img src="images\activity-3\2-filter-setup.png" alt="filter setup" style="width:720px;">
 
 -   Click on **Orders by Person** and drag it onto the lower right side of the dashboard. To make it look more presentable, manually resize it so it is not taking too much space. Play around with placements of graphs, the goal is to present something that tells a story
--   Now comes the most important part. One of the best-known features of Tableau is the ability to interact with data on the go. Click on your **Orders by Person** graph on the dashboard and you should see a little menu pop up on the side (could be on the right or left depending on the placement of the graph). It looks like this. ***image*** Click on the **Use as Filter** option
+
+<img src="images\activity-3\2-filter-icon.png" alt="filter icon" style="float:right;width:90px;">
+
+-   Now comes the most important part. One of the best-known features of Tableau is the ability to interact with data on the go. Click on your **Orders by Person** graph on the dashboard and you should see a little menu pop up on the side (could be on the right or left depending on the placement of the graph). Click on the **Use as Filter** option
 -   Now click on any name on the list to see the graphs change. This particular graph tells a story of a salesperson, their profits by year, and a breakdown of the categories of goods that they sold. Your dashboard should now look like this:
 
 <img src="images\activity-3\2-realtime-changes.png" alt="interactive dashboard example" style="width:720px;">
