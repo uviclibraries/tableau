@@ -16,7 +16,7 @@ _Please note that creating a Tableau account and using the application requires 
     - Open Tableau Desktop and get familiar with the interface
         - Discover Pane (right): Educational resources and links to relevant content
         - Recent Flows (middle): Previous files are displayed here.
-        - Connect Pane (left): Select a data source
+        - Connections Pane (left): Select a data source
 2.  **Getting Started With Data**
     - In Connections Pane (left), click **Microsoft Excel**. Open the **Global Superstore Orders 2016.xlsx** file you downloaded to your computer or, if you haven't already, [download it now](https://goo.gl/yTDhMB){:target="_blank"}
     - In the Connections Pane (below), we see all the sheets in the Excel file. Drag the **Orders** sheet into the flow pane as shown
