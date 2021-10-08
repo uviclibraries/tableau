@@ -37,11 +37,9 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
     <img src="images\activity-2\calculated-field.png" alt="calculated field menu" style="float:right;width:360px;">
 
     - From the dimensions list, right-click and drag **Country** to the central **drop field here** area in the middle of the screen. Select **Country** from dialigue box that appears
-    - To create a new measure, click **Analysis** on the top menu bar, and select **Create Calculated Field** from the drop-down menu. In the pop-up text box, rename the default title **Calculation1** to **Profit per Item**. The text box below allows formulas to be written, combining numerical operators and measures together. Left-click drag the **Profit** measure into the text box, type the division symbol ( / ), them left-click drag the **Quantity** measures, calculating profit per item
+    - To create a new measure, click **Analysis** on the top menu bar, and select **Create Calculated Field** from the drop-down menu (Note: For Mac users, **VERIFY THIS WITH ALEX**). In the pop-up text box, rename the default title **Calculation1** to **Profit per Item**. The text box below allows formulas to be written, combining numerical operators and measures together. Left-click drag the **Profit** measure into the text box, type the division symbol ( / ), them left-click drag the **Quantity** measures, calculating profit per item
 
     <img src="images\activity-2\calculated-field.gif" alt="creating a calculated field" style="width:720px;">
-
-    - ***change here: different on MAC slightly***
 
     <img src="images\activity-2\color-icon.png" alt="color icon" style="float:right;width:60px;">
 
