@@ -44,9 +44,6 @@ This part will cover the creation of an interactive dashboard based on the previ
 
 -   Click the **Dashboard** icon <img src="images\activity-3\icon-dashboard.png" alt="new dashboard icon" style="width:30px;"> on the bottom toolbar to open a dashboard worksheet
 -   On the left side under **Size**, click on the drop-down arrow to the right of **Range** and select **Automatic**. This will allow you to have a full-screen dashboard
-
-<img src="images\logo.png" alt="tableau logo" style="width:720px;">
-
 -   Also on the left side, you should see your graphs: **Profit by Year**, **Order by Person**, and **Date/Category/Profit**
 -   Click on **Date/Category/Profit** and drag it onto the dashboard. It will take the full space of the dashboard
 -   Click on **Profit by Year** and drag it onto the lower half of the dashboard. Tableau will allow you to put them anywhere and will adjust sizes automatically. So far your dashboard should look like this:
