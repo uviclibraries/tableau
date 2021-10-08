@@ -132,7 +132,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         3.  Click and drag **Profit** into **Rows**
         4.  Your Columns and Rows should look like this:
         
-            <img src="images\activity-2\columns-rows-4(3).png" alt="columns and rows logo" style="width:480px;"><br>
+            <img src="images\activity-2\columns-rows-4(3).png" alt="columns and rows logo" style="width:360px;">
         
         5.  Click and drag **Sub-Category** onto the **Color** pane in the **Marks** section
         6.  Click and drag **Country** into the **Filters** section. In the pop-up window click **All** and click **OK**
