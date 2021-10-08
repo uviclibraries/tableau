@@ -15,14 +15,14 @@ If you and your group have any questions or get stuck as you work through this i
     - On the left side toolbar, under the **Size** heading, click the drop-down arrow to the right of **Range** and select **Automatic**. This will adjust to the size of your dashboard to fit the size of any screen it is displayed on
     - The various sheets you have created in Activity 2 will all be displayed on the left side toolbar, under the **Sheets** heading
     - Drag and drop the map visualization anywhere on the dashboard.
-    - Drag and drop the bar chart and line graph visualization onto the bottom half of the dashbiard. Both visualizations should now be displayed top to bottom.
+    - Drag and drop the bar chart and line graph visualization onto the bottom half of the dashboard. Both visualizations should now be displayed top to bottom.
 
     <img src="images\activity-3\1-setup.gif" alt="building a dashboard" style="width:720px;">
 
     <img src="images\activity-3\1-filter-icon-cropped.png" alt="filter icon" style="float:right;width:120px;">
 
 2.  Creating a visualization filter
-    - Click the white space on the top of the map visualization. Icons should appear on the rop right corner. Select the filter icon to enablethe map to operate as a filter
+    - Click the white space on the top of the map visualization. Icons should appear on the rop right corner. Select the filter icon to enable the map to operate as a filter
     - Click on any of the countries on the map to automatically adjust the sales and profit data to reflect the selected country on the figure below
 
     <img src="images\activity-3\1-filter.gif" alt="tableau logo" style="width:720px;">
