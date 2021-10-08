@@ -43,7 +43,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
     - ***change here: different on MAC slightly***
 
-    <img src="images\activity-2\color-icon.png" alt="color icon" style="float:right;width:90px;">
+    <img src="images\activity-2\color-icon.png" alt="color icon" style="float:right;width:60px;">
 
     - From the measures list, right-click and drag the new **Profit per Item** measure to the Color icon (see right) in the Marks box. Select **AVG(Profit per Item)**. Now each country on the map will be colour-coded by the measure
     - To scroll around the world map, click on the black right-facing arrowhead in the zoom menu bar at the rop-left corner of the map, and select the crossed arrows. This will allow users to pan across the map
