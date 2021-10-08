@@ -13,14 +13,14 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
 1.  **Treemap: Total Profit by Region**
     - Create a new sheet by clicking on the <img src="images\activity-2\icon.png" alt="new sheet icon" style="width:30px;"> icon on the page-bottom menu
-    - From the dimensions list, left-click on **Region** and drag it up to the **Rows** shelf
+    - From the dimensions list, click on **Region** and drag it up to the **Rows** shelf
 
     <img src="images\activity-2\rows.png" alt="columns and rows" style="float:right;width:360px;">
 
-    - From the measures list, left-click on **Profit** and drag it up to the **Columns** shelf. It will default to **SUM(Profit)** and a bar chart will diaplay showing both negative and positive profits
+    - From the measures list, click on **Profit** and drag it up to the **Columns** shelf. It will default to **SUM(Profit)** and a bar chart will display showing both negative and positive profits
     - Click on the **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> in the top right corner of the screen to see the suggested visualizations
     - Click on **treemaps** (4th one down on left)
-    - A grey pill stating **3 negative** should appear st the bottom right corner. Click on this pill to view the two options for dealing with the negative values: **Filter Data** or **Use Absolute Values**
+    - A grey pill stating **3 negative** should appear at the bottom right corner. Click on this pill to view the two options for dealing with the negative values: **Filter Data** or **Use Absolute Values**
     - By selecting **Use Absolute Values**, the negative values will appear as the same size as positive values but in a different colour
     - Right-click **Sheet 2** and rename it to **Profit by Region Treemap**. Automatically the data viz title changes to reflect the new name. Right-click the data viz title to edit further
     - !! Remember if you make any mistakes, use the back arrow key at the top left of the top toolbar to go back !!
@@ -36,8 +36,8 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
     <img src="images\activity-2\calculated-field.png" alt="calculated field menu" style="float:right;width:360px;">
 
-    - From the dimensions list, right-click and drag **Country** to the central **drop field here** area in the middle of the screen. Select **Country** from dialigue box that appears
-    - To create a new measure, click **Analysis** on the top menu bar, and select **Create Calculated Field** from the drop-down menu (Note: For Mac users, **VERIFY THIS WITH ALEX**). In the pop-up text box, rename the default title **Calculation1** to **Profit per Item**. The text box below allows formulas to be written, combining numerical operators and measures together. Left-click drag the **Profit** measure into the text box, type the division symbol ( / ), them left-click drag the **Quantity** measures, calculating profit per item
+    - From the dimensions list, right-click and drag **Country** to the central **drop field here** area in the middle of the screen. Select **Country** from the dialogue box that appears
+    - To create a new measure, click **Analysis** on the top menu bar, and select **Create Calculated Field** from the drop-down menu (Note: For Mac users, **VERIFY THIS WITH ALEX**). In the pop-up text box, rename the default title **Calculation1** to **Profit per Item**. The text box below allows formulas to be written, combining numerical operators and measures together. Left-click drag the **Profit** measure into the text box, type the division symbol ( / ), then left-click drag the **Quantity** measures, calculating profit per item
 
     <img src="images\activity-2\calculated-field.gif" alt="creating a calculated field" style="width:720px;">
 
@@ -85,7 +85,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
     <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:180px;">
     
     -   **Profit by Year Graph**
-        1.  Return to Data Source and drag the "People" sheet to the same area as "Orders"
+        1.  Return to **Data Source** and drag the **People** sheet to the same area as **Orders**
         2.  Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
         
             <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:360px;">
@@ -114,7 +114,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         
             <img src="images\activity-2\text.png" alt="marks menu" style="float:right;width:360px;">
         
-        3.  From the **Tables** select **Sales** and drag it onto **Text** in the **Marks** bar. The goal here is to show the numeric value without any calculations (Tableau will auromatically convert the numbers to SUM)
+        3.  From the **Tables** select **Sales** and drag it onto **Text** in the **Marks** bar. The goal here is to show the numeric value without any calculations (Tableau will automatically convert the numbers to SUM)
         4.  Right-click on your **Sheet** name at the bottom of the pane and rename it **Orders by Person**
         
             <img src="images\activity-2\orders-by-person.gif" alt="orders by person graph example" style="width:720px;">
