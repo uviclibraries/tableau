@@ -40,7 +40,7 @@ _Please note that creating a Tableau account and using the application requires 
     - We see column names on the left side menu, broken up into dimensions (blue) and measures (green). Dimensions are fields that cannot be aggregated; Measures are fields that can be measured, aggregated, or used for mathematical operations
     - Let's get the relationship between two variables: Sales (in Measures), and Order Date (in Dimensions)
         - Click and drag the **Sales** measure into the **Rows** shelf (top)
-        - In the dialogue box that appears, select AVG(Sales) for average sales
+        - In the dialogue box that appears, select **AVG(Sales)** for average sales
         - Click and drag the **Order Date** dimension into the **Columns** shelf (top)
         
         <img src="images\activity-1\relationship.png" alt="setting up a relationship" style="width:720px;">
