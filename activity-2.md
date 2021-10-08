@@ -13,10 +13,10 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
 1.  **Treemap: Total Profit by Region**
     - Create a new sheet by clicking on the <img src="images\activity-2\icon.png" alt="new sheet icon" style="width:30px;"> icon on the page-bottom menu
+    - From the dimensions list, left-click on **Region** and drag it up to the **Rows** shelf
 
     <img src="images\activity-2\rows.png" alt="columns and rows" style="float:right;width:360px;">
 
-    - From the dimensions list, left-click on **Region** and drag it up to the **Rows** shelf
     - From the measures list, left-click on **Profit** and drag it up to the **Columns** shelf. It will default to **SUM(Profit)** and a bar chart will diaplay showing both negative and positive profits
     - Click on the **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> in the top right corner of the screen to see the suggested visualizations
     - Click on **treemaps** (4th one down on left)
