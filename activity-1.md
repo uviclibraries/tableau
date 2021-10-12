@@ -18,7 +18,7 @@ _Please note that creating a Tableau account and using the application requires 
         - Recent Flows (middle): Previous files are displayed here.
         - Connections Pane (left): Select a data source
 2.  **Getting Started With Data**
-    - In Connections Pane (left), click **Microsoft Excel**. Open the **Global Superstore Orders 2016.xlsx** file you downloaded to your computer or, if you haven't already, [download it now](resources\Global Superstore Orders 2016.xlsx){:target="_blank"}
+    - In Connections Pane (left), click **Microsoft Excel**. Open the **Global Superstore Orders 2016.xlsx** file you downloaded to your computer or, if you haven't already, <a href="https://github.com/richmccue/tableau/blob/main/resources/Global%20Superstore%20Orders%202016.xlsx">download it now</a>
     - In the Connections Pane (below), we see all the sheets in the Excel file. Drag the **Orders** sheet into the flow pane as shown
 
     <img src="images\activity-1\orders-drag.png" alt="drag Orders into flow plane" style="width:720px;">
