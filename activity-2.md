@@ -13,11 +13,11 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
 1.  **Treemap: Total Profit by Region**
     - Create a new sheet by clicking on the <img src="images\activity-2\icon.png" alt="new sheet icon" style="width:30px;"> icon on the page-bottom menu
-    - From the dimensions list, click on **Region** and drag it up to the **Rows** shelf
+    - From the dimensions list, right-click on **Region** and drag it up to the **Rows** shelf
 
     <img src="images\activity-2\rows.png" alt="columns and rows" style="float:right;width:360px;">
 
-    - From the measures list, click on **Profit** and drag it up to the **Columns** shelf. It will default to **SUM(Profit)** and a bar chart will display showing both negative and positive profits
+    - From the measures list, right-click on **Profit** and drag it up to the **Columns** shelf. It will default to **SUM(Profit)** and a bar chart will display showing both negative and positive profits
     - Click on the **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> in the top right corner of the screen to see the suggested visualizations
     - Click on **treemaps** (4th one down on left)
     - A grey pill stating **3 negative** should appear at the bottom right corner. Click on this pill to view the two options for dealing with the negative values: **Filter Data** or **Use Absolute Values**
@@ -37,7 +37,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
     <img src="images\activity-2\calculated-field.png" alt="calculated field menu" style="float:right;width:360px;">
 
     - From the dimensions list, right-click and drag **Country** to the central **drop field here** area in the middle of the screen. Select **Country** from the dialogue box that appears
-    - To create a new measure, click **Analysis** on the top menu bar, and select **Create Calculated Field** from the drop-down menu (Note: For Mac users, **VERIFY THIS WITH ALEX**). In the pop-up text box, rename the default title **Calculation1** to **Profit per Item**. The text box below allows formulas to be written, combining numerical operators and measures together. Left-click drag the **Profit** measure into the text box, type the division symbol ( / ), then left-click drag the **Quantity** measures, calculating profit per item
+    - To create a new measure, click **Analysis** on the top menu bar, and select **Create Calculated Field** from the drop-down menu (Note: For Mac users, the **Analysis** button will be in the very top Mac ribbon, not the Tableau app's ribbon). In the pop-up text box, rename the default title **Calculation1** to **Profit per Item**. The text box below allows formulas to be written, combining numerical operators and measures together. Left-click drag the **Profit** measure into the text box, type the division symbol ( / ), then left-click drag the **Quantity** measures, calculating profit per item
 
     <img src="images\activity-2\calculated-field.gif" alt="creating a calculated field" style="width:720px;">
 
@@ -51,7 +51,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
     - From the measures list, right-click on **Sales** and drag to the Color icon in the Marks box. Select **SUM(Sales)**
     - Edit map title and rename it **Total Sales by Country**
-    - Click on the downward arrow in the Legend box and select **Edit Colors** to choose an appropriate colour (e.g. blue teal). Click on **Color** in the Marks box and select **Edit Colors**
+    - Try changing colors by clicking on **Color** in the **Marks** box and selecting **Edit Colors**
 
     <img src="images\activity-2\edit-color.gif" alt="changing the colors" style="width:720px;">
 
@@ -64,10 +64,10 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
     <img src="images\activity-2\new-sheet.png" alt="drop field menu" style="float:right;width:240px;">
     
     - Create a new sheet by clicking on the <img src="images\activity-2\icon.png" alt="new sheet icon" style="width:30px;"> icon in the page-bottom menu
-    - From the dimensions list, right-click on **Order Date** and drag to the columns shelf. From the dialogue box that appears, select the **QUARTER(Order Date)** measure option (green w/ calendar & clock icon) (see figure **->**)
+    - From the dimensions list, right-click on **Order Date** and drag to the columns shelf. From the dialogue box that appears, select the **QUARTER(Order Date)** measure option (green w/ calendar & clock icon) (see figure **->**). Note: this may not automatically appear for Mac users, so they must instead click on the **"+"** next to **YEAR(Order Date)**
     - From the measures list, right-click on **Sales** and drag to the rows shelf. Select **CNT(Sales)** from the pop-up box
     - Again, from the measures list, right-click on **Profit** and drag to the rows shelf, then select **SUM(Profit)**
-    - From the dimensions list, left-click on **Category** and drag to the rows shelf
+    - From the dimensions list, right-click on **Category** and drag to the rows shelf
 
     <img src="images\activity-2\linebar-1.gif" alt="making a line bar graph" style="width:720px;">
 
