@@ -54,7 +54,7 @@ _Please note that creating a Tableau account and using the application requires 
     <img src="images\activity-1\show-me.png" alt="different plot types" style="width:720px;">
     
     - The **Marks** card area (to the left of the visualization charts) is where you can control the visual features of your plot, Try changing the colour and size
-    - You can also control the visual appearance of your plot according to dimensions of interest. For example, right-click drag the **Category** in the dialigue box that appears. Please note that the dialog box does not always appear
+    - You can also control the visual appearance of your plot according to dimensions of interest. For example, right-click drag the **Category** in the dialogue box that appears. Please note that the dialog box does not always appear
 
     <img src="images\activity-1\style-change.gif" alt="changing graph styles" style="width:720px;">
 
