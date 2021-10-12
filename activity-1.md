@@ -48,7 +48,7 @@ _Please note that creating a Tableau account and using the application requires 
         
         - In the dialogue box that appears, select YEAR(Order Date). In Tableau, it will automatically create a visualization
 
-    - Click the **"+"** in the YEAR(Order Date) blue pill and drill down to get quarters
+    - Click the **"+"** in the **YEAR(Order Date)** blue pill and drill down to get quarters
     - Click **Show Me** (top right) to display the different plot types that Tableau recommends. Try a few and think about their effect on the 4 data visualization principles
     
     <img src="images\activity-1\show-me.png" alt="different plot types" style="width:720px;">
