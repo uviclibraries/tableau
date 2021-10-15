@@ -37,7 +37,6 @@ _Please note that creating a Tableau account and using the application requires 
         - In the dialogue box that appears, select **AVG(Sales)** for average sales
         - Click and drag the **Order Date** dimension into the **Columns** shelf (top)
         
-        <img src="images\activity-1\relationship.png" alt="setting up a relationship" style="width:720px;">
         <img src="images\activity-1\relationship.gif" alt="setting up a relationship animated" style="width:720px;">
         
         - In the dialogue box that appears, select **YEAR(Order Date)**. In Tableau, it will automatically create a visualization
