@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Activity 2
+title: 2-Data Visualization
 nav_order: 3
 parent: Workshop Activities
 ---
 
-# Activity 2 - Data Visualization Exercises
+# Data Visualization Exercises
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Enjoy!
 
