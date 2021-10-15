@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Activity 1
+title: 1-Connecting to Data
 nav_order: 2
 parent: Workshop Activities
 ---
 
-# Activity 1 - Connecting to Data
+# Connecting to Data
 
 if you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
