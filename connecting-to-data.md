@@ -51,4 +51,4 @@ _Please note that creating a Tableau account and using the application requires 
 
     <img src="images\activity-1\style-change.gif" alt="changing graph styles" style="width:720px;">
 
-[NEXT STEP: Building Data Visualizations (Activity 2)](activity-2.html){: .btn .btn-blue }
+[NEXT STEP: Building Data Visualizations](building-data-visualizations.html){: .btn .btn-blue }
