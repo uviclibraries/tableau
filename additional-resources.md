@@ -14,7 +14,7 @@ nav_order: 10
 
 ## Acknowledgements
 
+- Alexandr Gavrilov, created the first version of this workshop.
 - [UBC Library Research Commons](https://github.com/ubc-library-rc/), for their assistance with the Jekyll template for GitHub Pages.
-- **MORE ACKNOWLEDGEMETNS HERE**
 
 [NEXT STEP: Workshop Evaluation Survey](workshop-evaluation.html){: .btn .btn-blue }
