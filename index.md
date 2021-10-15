@@ -3,7 +3,7 @@ layout: default
 title: Introduction 
 nav_order: 1
 ---
-<img src="images\logo.png" alt="tableau logo" style="float:right;width:180px;"> 
+<img src="images\logo.png" alt="tableau logo" style="float:right;width:250px;"> 
 
 # Introduction to Data Visualization with Tableau
 
@@ -13,7 +13,7 @@ nav_order: 1
 
 ## Why Tableau?
 
-[Tableau](https://www.tableau.com/) is a powerful tool that helps researchers visual their quantitative data to tell their research stories in a more impactful way.
+[Tableau](https://www.tableau.com/) is a powerful tool that helps you visualize your research data by transforming your raw data into easily understandable formats, and can help you tell your research story in more impactful ways. Tableau helps you analyze your data quickly by creating visualizations in the form of generated dashboards and worksheets.
 
 ## Learning objectives
 
