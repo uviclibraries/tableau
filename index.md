@@ -13,7 +13,9 @@ nav_order: 1
 
 ## Why Tableau?
 
-[Tableau](https://www.tableau.com/) is a powerful tool that helps you visualize your research data by transforming your raw data into easily understandable formats, and can help you tell your research story in more impactful ways. Tableau helps you analyze your data quickly by creating visualizations in the form of generated dashboards and worksheets. Tableau is a commercial software tool that is free for students to use, but must be purchased for commercial use.
+[Tableau](https://www.tableau.com/) is a powerful tool that helps you visualize your research data by transforming your raw data into easily understandable formats, and can help you tell your research story in more impactful ways. Tableau helps you analyze your data quickly by creating visualizations in the form of generated dashboards and worksheets. 
+
+Tableau is a commercial software tool that students can use free of charge, but must be purchased for commercial use.
 
 ## Learning objectives
 
