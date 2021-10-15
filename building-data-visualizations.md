@@ -143,4 +143,4 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         <img src="images\activity-2\date-category-profit.png" alt="date category profit graph final output" style="width:720px;">
 
 
-[NEXT STEP: Creating Your First Dashboard (Activity 3)](activity-3.html){: .btn .btn-blue }
+[NEXT STEP: Creating Your First Dashboard](dashboards.html){: .btn .btn-blue }
