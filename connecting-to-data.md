@@ -19,9 +19,9 @@ _Please note that creating a Tableau account and using the application requires 
         - Connections Pane (left): Select a data source
 2.  **Getting Started With Data**
     - In Connections Pane (left), click **Microsoft Excel**. Open the **Global Superstore Orders 2016.xlsx** file you downloaded to your computer or, if you haven't already, <a href="https://github.com/richmccue/tableau/raw/main/resources/Global%20Superstore%20Orders%202016.xlsx">download it now</a>
-    - In the Connections Pane (below), we see all the sheets in the Excel file. Drag the **Orders** sheet into the flow pane as shown
+    - In the Connections Pane (see animation below), we see all the sheets in the Excel file. Drag the **Orders** sheet into the flow pane as shown
     - The **Orders** sheet can be renamed by simply double-clicking on the column name. Rename the sheet to **Global Superstore Orders**
-    - The data itself is viewable in the data grid below. You can rename a column by double-clicking on the column name   
+    - The data itself is viewable in the data grid. You can rename a column by double-clicking on the column name (see animation below).
     - You can also change the default data type by clicking on the data icon as shown. There are 5 data types: numeric (<img src="images\activity-1\mini-icon-1.png" alt="numeric symbol" style="width:30px;">), text (<img src="images\activity-1\mini-icon-2.png" alt="text symbol" style="width:30px;">), geospatial (<img src="images\activity-1\mini-icon-3.png" alt="geospacial symbol" style="width:30px;">), date(<img src="images\activity-1\mini-icon-4.png" alt="date symbol" style="width:30px;">), and date-and-time (<img src="images\activity-1\mini-icon-5.png" alt="date and time symbol" style="width:30px;">)
 
     <img src="images\activity-1\import-drag.gif" alt="import example" style="width:720px;">
