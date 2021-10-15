@@ -12,8 +12,8 @@ This workshop is primarily hands-on practice with Tableau in order to learn to u
     - Fill out the information and use your UVic email address to get your activation code and verify your student status
     - You get to keep your Tableau license for as long as you are a student at the university. You will need to re-register annually
 - Download <a href="https://github.com/richmccue/tableau/raw/main/resources/Global%20Superstore%20Orders%202016.xlsx">this Excel dataset</a> to your computer (<1 min)
-- [Explore Tableau Visualizations](https://public.tableau.com/en-us/gallery/?tab=viz-of-the-day&type=viz-of-the-day){:target="_blank"} (5 min)
-- [Introduction to Tableau](https://www.youtube.com/watch?v=jEgVto5QME8){:target="_blank"} (20 min)<br>
+- [Explore some sample Tableau Visualizations](https://public.tableau.com/en-us/gallery/?tab=viz-of-the-day&type=viz-of-the-day){:target="_blank"} (5 min)
+- [Introduction to Tableau](https://www.youtube.com/watch?v=jEgVto5QME8){:target="_blank"} video (20 min)<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jEgVto5QME8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [NEXT STEP: Introduction to Hands-On Activities](activities-intro.html){: .btn .btn-blue }
