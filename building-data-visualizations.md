@@ -3,6 +3,7 @@ layout: default
 title: 2-Data Visualization
 nav_order: 3
 parent: Workshop Activities
+customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 
 # Data Visualization Exercises
@@ -25,9 +26,14 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
     - Right-click **Sheet 2** and rename it to **Profit by Region Treemap**. Automatically the data viz title changes to reflect the new name. Right-click the data viz title to edit further
     - !! Remember if you make any mistakes, use the back arrow key at the top left of the top toolbar to go back !!
 
-    <img src="images\activity-2\treemaps.gif" alt="treemaps example" style="width:720px;">
+<button onclick="toggle('gif1')">Show/Hide Animation</button>
+<div id="gif1">
+       <img src="images\activity-2\treemaps.gif" alt="treemaps example" style="width:720px;"> <br>
+     </div> 
 
-    - **Your final output should look like this:**
+   
+
+- **Your final output should look like this:**
 
     <img src="images\activity-2\treemaps.png" alt="treemaps" style="width:720px;">
 
@@ -39,23 +45,37 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
     - From the dimensions list, right-click and drag **Country** to the central **drop field here** area in the middle of the screen. Select **Country** from the dialogue box that appears
     - To create a new measure, click **Analysis** on the top menu bar, and select **Create Calculated Field** from the drop-down menu (Note: For Mac users, the **Analysis** button will be in the very top Mac ribbon, not the Tableau app's ribbon). In the pop-up text box, rename the default title **Calculation1** to **Profit per Item**. The text box below allows formulas to be written, combining numerical operators and measures together. Left-click drag the **Profit** measure into the text box, type the division symbol ( / ), then left-click drag the **Quantity** measures, calculating profit per item
 
-    <img src="images\activity-2\calculated-field.gif" alt="creating a calculated field" style="width:720px;">
+<button onclick="toggle('gif2')">Show/Hide Animation</button>
+<div id="gif2">
+       <img src="images\activity-2\calculated-field.gif" alt="creating a calculated field" style="width:720px;"> <br>
+     </div> 
 
-    <img src="images\activity-2\color-icon.png" alt="color icon" style="float:right;width:60px;">
+
+    
+
+  <img src="images\activity-2\color-icon.png" alt="color icon" style="float:right;width:60px;">
 
     - From the measures list, right-click and drag the new **Profit per Item** measure to the Color icon (see right) in the Marks box. Select **AVG(Profit per Item)**. Now each country on the map will be colour-coded by the measure
     - To scroll around the world map, click on the black right-facing arrowhead in the zoom menu bar at the rop-left corner of the map, and select the crossed arrows. This will allow users to pan across the map
     - Let's replace our calculated measure. Right-click the **AVG(Profit per Item)** green pill from the marks box and select **remove**
 
-    <img src="images\activity-2\color.gif" alt="color coding" style="width:720px;">
+<button onclick="toggle('gif3')">Show/Hide Animation</button>
+<div id="gif3">
+        <img src="images\activity-2\color.gif" alt="color coding" style="width:720px;"><br>
+     </div> 
 
-    - From the measures list, right-click on **Sales** and drag to the Color icon in the Marks box. Select **SUM(Sales)**
+- From the measures list, right-click on **Sales** and drag to the Color icon in the Marks box. Select **SUM(Sales)**
     - Edit map title and rename it **Total Sales by Country**
     - Try changing colors by clicking on **Color** in the **Marks** box and selecting **Edit Colors**
 
-    <img src="images\activity-2\edit-color.gif" alt="changing the colors" style="width:720px;">
+<button onclick="toggle('gif4')">Show/Hide Animation</button>
+<div id="gif4">
+          <img src="images\activity-2\edit-color.gif" alt="changing the colors" style="width:720px;"><br>
+     </div> 
 
-    - **Your final output should look like this:**
+  
+
+- **Your final output should look like this:**
 
     <img src="images\activity-2\final-color.png" alt="final map output" style="width:720px;">
 
@@ -69,14 +89,24 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
     - Again, from the measures list, right-click on **Profit** and drag to the rows shelf, then select **SUM(Profit)**
     - From the dimensions list, right-click on **Category** and drag to the rows shelf
 
-    <img src="images\activity-2\linebar-1.gif" alt="making a line bar graph" style="width:720px;">
+<button onclick="toggle('gif5')">Show/Hide Animation</button>
+<div id="gif5">
+          <img src="images\activity-2\linebar-1.gif" alt="making a line bar graph" style="width:720px;"> <br>
+     </div> 
+
+
 
     - Click the **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> (top-right) and select the **dual combination chart** (3rd up from the bottom right). Click again on the **Show Me** icon again to close it
     - Rename the title to **Quarterly Profit and Sales by Product**
 
-    <img src="images\activity-2\linebar-2.gif" alt="making a line bar graph 2" style="width:720px;">
+<button onclick="toggle('gif6')">Show/Hide Animation</button>
+<div id="gif6">
+          <img src="images\activity-2\linebar-2.gif" alt="making a line bar graph 2" style="width:720px;"><br>
+     </div>
 
-    - **Your final output should look like this:**
+    
+
+- **Your final output should look like this:**
 
     <img src="images\activity-2\linebar.png" alt="final linebar output" style="width:720px;">
 
@@ -88,7 +118,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         1.  Return to **Data Source** and drag the **People** sheet to the same area as **Orders**
         2.  Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
         
-            <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:360px;">
+         <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:360px;">
         
         3.  Click on **Ship Date** and drag it to the **Columns** as well
         4.  Click on **Profit** and drag it to the **Rows**. It will automatically produce **SUM(Profit)**
@@ -99,11 +129,16 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         6.  From the **Tables**, grab **Ship Date** and drag it into the **Color** section in the **Marks** pane
         7.  The last step is to click on **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> in the top-right corner and select the **Side-by-Side Bars** option. After that, right-click on the name of your table at the bottom of the pane and rename it **Profit by Year**
         
-            <img src="images\activity-2\side-by-side-bars.gif" alt="side by side bar graph" style="width:720px;">
-        
-        8.  **Your final result should look like this:**
+<button onclick="toggle('gif7')">Show/Hide Animation</button>
+<div id="gif7">
+          <img src="images\activity-2\side-by-side-bars.gif" alt="side by side bar graph" style="width:720px;"><br>
+     </div>
 
-            <img src="images\activity-2\side-by-side-bars.png" alt="side by side bar graph final output" style="width:720px;">
+       
+        
+ -  **Your final result should look like this:**
+
+    <img src="images\activity-2\side-by-side-bars.png" alt="side by side bar graph final output" style="width:720px;">
 
     
     <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:200px;">
@@ -142,5 +177,17 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
 
         <img src="images\activity-2\date-category-profit.png" alt="date category profit graph final output" style="width:720px;">
 
+
+<script>  
+
+    function toggle(input) {
+        var x = document.getElementById(input);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
 
 [NEXT STEP: Creating Your First Dashboard](dashboards.html){: .btn .btn-blue }

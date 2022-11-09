@@ -3,6 +3,7 @@ layout: default
 title: 1-Connecting to Data
 nav_order: 2
 parent: Workshop Activities
+customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 
 # Connecting to Data
@@ -24,7 +25,12 @@ _Please note that creating a Tableau account and using the application requires 
     - The data itself is viewable in the data grid. You can rename a column by double-clicking on the column name (see animation below).
     - You can also change the default data type by clicking on the data icon as shown. There are 5 data types: numeric (<img src="images\activity-1\mini-icon-1.png" alt="numeric symbol" style="width:30px;">), text (<img src="images\activity-1\mini-icon-2.png" alt="text symbol" style="width:30px;">), geospatial (<img src="images\activity-1\mini-icon-3.png" alt="geospacial symbol" style="width:30px;">), date(<img src="images\activity-1\mini-icon-4.png" alt="date symbol" style="width:30px;">), and date-and-time (<img src="images\activity-1\mini-icon-5.png" alt="date and time symbol" style="width:30px;">)
 
-    <img src="images\activity-1\import-drag.gif" alt="import example" style="width:720px;">
+<button onclick="toggle('gif1')">Show/Hide Animation</button>
+<div id="gif1">
+          <img src="images\activity-1\import-drag.gif" alt="import example" style="width:720px;"><br>
+     </div>
+
+    
 
 3.  **Working With Data**
     - Click the **Sheet 1** tab on the bottom toolbar to create our first worksheet
@@ -37,9 +43,15 @@ _Please note that creating a Tableau account and using the application requires 
         - In the dialogue box that appears, select **AVG(Sales)** for average sales
         - Click and drag the **Order Date** dimension into the **Columns** shelf (top)
         
-        <img src="images\activity-1\relationship.gif" alt="setting up a relationship animated" style="width:720px;">
-        
-        - In the dialogue box that appears, select **YEAR(Order Date)**. In Tableau, it will automatically create a visualization
+
+    <button onclick="toggle('gif2')">Show/Hide Animation</button>
+<div id="gif2">
+          <img src="images\activity-1\relationship.gif" alt="setting up a relationship animated" style="width:720px;"><br>
+     </div>
+
+
+          
+- In the dialogue box that appears, select **YEAR(Order Date)**. In Tableau, it will automatically create a visualization
 
     - Click the **"+"** in the **YEAR(Order Date)** blue pill and drill down to get quarters
     - Click **Show Me** (top right) to display the different plot types that Tableau recommends. Try a few and think about their effect on the 4 data visualization principles
@@ -49,6 +61,23 @@ _Please note that creating a Tableau account and using the application requires 
     - The **Marks** card area (to the left of the visualization charts) is where you can control the visual features of your plot, Try changing the colour and size
     - You can also control the visual appearance of your plot according to dimensions of interest. For example, right-click drag the **Category** dimension onto the **Color** card. Select **Category** in the dialogue box that appears. Please note that the dialog box does not always appear
 
-    <img src="images\activity-1\style-change.gif" alt="changing graph styles" style="width:720px;">
+<button onclick="toggle('gif3')">Show/Hide Animation</button>
+<div id="gif3">
+           <img src="images\activity-1\style-change.gif" alt="changing graph styles" style="width:720px;"><br>
+     </div>
+
+   
+
+<script>  
+
+    function toggle(input) {
+        var x = document.getElementById(input);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
 
 [NEXT STEP: Building Data Visualizations](building-data-visualizations.html){: .btn .btn-blue }
