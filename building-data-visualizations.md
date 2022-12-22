@@ -64,9 +64,9 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
         <img src="images\activity-2\color.gif" alt="color coding" style="width:720px;"><br>
      </div> 
 
-- From the measures list, right-click on **Sales** and drag to the Color icon in the Marks box. Select **SUM(Sales)**
-    - Edit map title and rename it **Total Sales by Country**
-    - Try changing colors by clicking on **Color** in the **Marks** box and selecting **Edit Colors**
+ - From the measures list, right-click on **Sales** and drag to the Color icon in the Marks box. Select **SUM(Sales)**
+ - Edit map title and rename it **Total Sales by Country**
+ - Try changing colors by clicking on **Color** in the **Marks** box and selecting **Edit Colors**
 
 <button onclick="toggle('gif4')">Show/Hide Animation</button>
 <div id="gif4">
