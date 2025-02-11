@@ -2,7 +2,7 @@
 layout: default
 title: 1-Connecting to Data
 nav_order: 2
-parent: Workshop Activities
+parent: Sales Data Activities
 customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 
