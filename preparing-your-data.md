@@ -22,5 +22,5 @@ Open Tableau Desktop and get familiar with the interface
 4. Connect the second file that you downloaded. Click Add beside Connections on the top left and select Text file again. To join both spreadsheets, select the second spreadsheet under Connections, then click and drag the file name under Files (below Connections) to an empty space on the right. 
   <img src="images\Tableau1-4.gif" alt="bottom toolbar" style="width:480px;">
 5. To the left of the spreadsheet on the bottom, select Country Name under the GDP per capita file, the = symbol under Operator, and Entity under the CO2 emissions per capita file. This tells Tableau that these columns contain the same identifiers across both sheets. As you can see on the spreadsheet to the right, the two files have now been combined.
-  <img src="images\TAbleau1-5.gif" alt="bottom toolbar" style="width:480px;">
+  <img src="images\Tableau1-5.gif" alt="bottom toolbar" style="width:480px;">
 6. Save your file by clicking File > Save as on your computer toolbar. Since Tableau may crash from time to time, we recommend saving your work frequently by clicking File > Save.
