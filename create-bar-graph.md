@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5-Create a bar graph showing countries with the 10 highest levels of CO2 emissions in 2023
+title: 4-Create a bar graph showing countries with the 10 highest levels of CO2 emissions in 2023
 nav_order: 5
 parent: CO2 Emissions Activity
 customjs: http://code.jquery.com/jquery-1.4.2.min.js
