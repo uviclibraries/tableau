@@ -13,6 +13,6 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 3.	Drag the Year field to the Filters shelf. To show data from 2023 only, enter 2023 to 2023 in the Range of Values tab. Click OK.
 <img src="images\Tableau-5-3.gif" alt="bottom toolbar" style="width:480px;">
 4.	Name the graph Countries with the highest CO2 emissions in 2023.
-<img src="images\Tableau-5-4.gif" alt="bottom toolbar" style="width:480px;">
+<img src="images\Tableau-5-4.png" alt="bottom toolbar" style="width:480px;">
 5. Create a world map showing relative level of CO2 emissions
-<img src="images\Tableau-5-5.gif" alt="bottom toolbar" style="width:480px;">
+<img src="images\Tableau-5-5.png" alt="bottom toolbar" style="width:480px;">
