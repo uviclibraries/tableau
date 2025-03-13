@@ -12,9 +12,7 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
   <img src="images\Tableau-2-2.gif" alt="bottom toolbar" style="width:480px;">
 3.	Rename the X-axis by right clicking on it and selecting Edit axis. Rename the X-axis to Year.
   <img src="images\Tableau 2-3a.png" alt="bottom toolbar">
-  <img src="images\Tableau 2-3b.png" alt="bottom toolbar">
 4.	Rename the graph by double clicking the title. You can rename it to Change in CO2 Emissions Over Time per Country. You can also enter this title into the sheet tab by right clicking on it.
-  <img src="images\Tableau 2-4a.png" alt="bottom toolbar">
   <img src="images\Tableau 2-4b.png" alt="bottom toolbar">
 5.	Since a graph showing all countries may be overwhelming, we will now create a separate graph to isolate one or more select countries. First, duplicate your sheet by right-clicking the current tab at the bottom, then selecting Duplicate. 
   <img src="images\Tableau 2-5.png" alt="bottom toolbar">
