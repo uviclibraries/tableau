@@ -17,4 +17,4 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 5.	Since a graph showing all countries may be overwhelming, we will now create a separate graph to isolate one or more select countries. First, duplicate your sheet by right-clicking the current tab at the bottom, then selecting Duplicate. 
 <img src="images\Tableau 2-5.png" alt="bottom toolbar">
 6.	In your new duplicated sheet, drag either the Entity or Country Name field to the Filters shelf, then select the country or countries you would like to display (you may need to click None below the country list to unselect all first). Click OK. Rename your new graph accordingly.
-<img src="images\Tableau 2-6.gif" alt="bottom toolbar" style="width:480px;">
+<img src="images\Tableau-2-6.gif" alt="bottom toolbar" style="width:480px;">
