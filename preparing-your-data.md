@@ -6,7 +6,7 @@ parent: CO2 Emissions Activity
 customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 
-If you haven’t already, [download and install](https://www.tableau.com/academic/students) Tableau for Students
+If you haven’t already, [download and install](https://www.tableau.com/academic/students){:target="_blank"} Tableau for Students
 
 Open Tableau Desktop and get familiar with the interface
 - Discover Pane (right): Educational resources and links to relevant content
@@ -14,7 +14,7 @@ Open Tableau Desktop and get familiar with the interface
 - Connections Pane (left): Select a data source
 
 # Connecting to Data
-1. Download data for [Per Capita Co2 emissions by country](https://ourworldindata.org/grapher/co-emissions-per-capita?tab=table) and [GDP per capita](https://ourworldindata.org/grapher/gdp-per-capita-worldbank?tab=table). You can find the download button below each table on the right. Then, click the Data tab and select Download full data. Open the zip file in the folder where you saved the data to (usually Downloads).
+1. Download data for [Per Capita Co2 emissions by country](https://ourworldindata.org/grapher/co-emissions-per-capita?tab=table){:target="_blank"} and [GDP per capita](https://ourworldindata.org/grapher/gdp-per-capita-worldbank?tab=table){:target="_blank"}. You can find the download button below each table on the right. Then, click the Data tab and select Download full data. Open the zip file in the folder where you saved the data to (usually Downloads).
 2. On the blue pane on the left, click Text file. This will allow you to select one of the .csv files that you downloaded.<br>
     <img src="images\Tableau1-2.gif" alt="bottom toolbar" style="width:480px;">
 3. You can now view the spreadsheet on the bottom pane. Hover over the top row of the sheet and click the arrow at the top right of the column. Select Rename and Rename this column to Country Name on both sheets. Hover over the top row of this column and click the arrow again, then select Create Group. Click OK. This will allow Tableau to later automatically generate a map based on country names.<br>
