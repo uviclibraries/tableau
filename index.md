@@ -22,10 +22,6 @@ Tableau is a commercial software tool that students can use free of charge, but 
 At the end of this workshop, you will be able to:
 
 1.  Explain the 4 key considerations of data visualizations:
-    - Audience
-    - Form
-    - Relationship
-    - Design
 2.  Import cleaned data into Tableau
 3.  Navigate the layout of the Tableau interface
 4.  Create 4 different charts and visualizations
