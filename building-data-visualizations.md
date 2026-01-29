@@ -10,7 +10,7 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Enjoy!
 
-We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
+We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet. In the previous activity, you started to see how to build visualizations in Tableau. That is, to create a new visualization, you click the New Sheet icon <img src="images\activity-2\icon.png" alt="new sheet icon" style="width:30px;"> on the page-bottom menu. Then you select which variables (dimensions or measures) you want to assign to rows, columns, or other characteristics of the figure (e.g., colour, size, etc), choose a plot type, and fine-tune if needed. In this activity, we are going to show how to create different types of plots in Tableau to show different trends in the data. Then, in the next activity, you are going to learn how to put these visualizations together in a single Dashboard.
 
 1.  **Treemap: Total Profit by Region**
     - Create a new sheet by clicking on the <img src="images\activity-2\icon.png" alt="new sheet icon" style="width:30px;"> icon on the page-bottom menu
@@ -111,11 +111,13 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet
     <img src="images\activity-2\linebar.png" alt="final linebar output" style="width:720px;">
 
 4.  **Building Sales Graphs for the Interactive Dashboard**<br>
+
+Above, you saw how to create different types of graphs. Now we are going to create charts that we will later put together into a single interactive dashboard.
     
     <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:180px;">
     
     -   **Profit by Year Graph**
-        1.  Return to **Data Source** and drag the **People** sheet to the same area as **Orders**
+        1.  Return to **Data Source** and drag the **People** sheet to the same area as **Orders**. Because both tables have a variable called **Region**, they will be linked. That is, the orders associated with a given region in the **Orders** table will also be associated with the people in the same region in the **People** sheet.
         2.  Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
         
          <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:360px;">
