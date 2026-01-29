@@ -19,7 +19,7 @@ _Please note that creating a Tableau account and using the application requires 
         - Recent Flows (middle): Previous files are displayed here.
         - Connections Pane (left): Select a data source
 2.  **Getting Started With Data**
-    - In Connections Pane (left), click **Microsoft Excel**. Open the **Global Superstore Orders 2016.xlsx** file you downloaded to your computer or, if you haven't already, <a href="https://github.com/richmccue/tableau/raw/main/resources/Global%20Superstore%20Orders%202016.xlsx">download it now</a>
+    - In Connections Pane (left), click **Microsoft Excel**. Open the **Global Superstore Orders 2016.xlsx** file you downloaded to your computer or, if you haven't already, [download it now](resources/Global_Superstore_Oreders_2016.xslx){:target="_blank"}
     - In the Connections Pane (see animation below), we see all the sheets in the Excel file. Drag the **Orders** sheet into the flow pane as shown
     - The **Orders** sheet can be renamed by simply double-clicking on the column name. Rename the sheet to **Global Superstore Orders**
     - The data itself is viewable in the data grid. You can rename a column by double-clicking on the column name (see animation below).
