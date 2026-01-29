@@ -75,7 +75,7 @@ This part will cover the creation of an interactive dashboard based on the previ
 
 
 
--   Note that you can make any of the graphs on the dashboard your filtered item to tell a different story. If you click on the date/category/profit filter and select **Bookcases** in the **Furniture** section (click directly on the line on the graph), it will display how many chairs were sold in a year by a particular person. Feel free to play around with these filters to see if you can come up with a different interpretation!
+-   Note that you can make any of the graphs on the dashboard your filtered item to tell a different story. If you click on the Date/category/profit graph, click on the filter icon, and then select **Bookcases** in the **Furniture** section (click directly on the line on the graph), it will display how many chairs were sold in a year by a particular person. Feel free to play around with these filters to see if you can come up with a different interpretation!
 
 
 <button onclick="toggle('gif4')">Show/Hide Animation</button>
