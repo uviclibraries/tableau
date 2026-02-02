@@ -114,7 +114,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet. In
 
 Above, you saw how to create different types of graphs. Now we are going to create charts that we will later put together into a single interactive dashboard.
     
-    <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:180px;">
+<img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:180px;">
     
     -   **Profit by Year Graph**
         1.  Return to **Data Source** and drag the **People** sheet to the same area as **Orders**. Because both tables have a variable called **Region**, they will be linked. That is, the orders associated with a given region in the **Orders** table will also be associated with the people in the same region in the **People** sheet.
