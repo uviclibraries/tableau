@@ -114,19 +114,19 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet. In
 
 Above, you saw how to create different types of graphs. Now we are going to create charts that we will later put together into a single interactive dashboard.
     
-<img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:180px;">
+   <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:180px;">
     
-    -   **Profit by Year Graph**
+   -   **Profit by Year Graph**
         1.  Return to **Data Source** and drag the **People** sheet to the same area as **Orders**. Because both tables have a variable called **Region**, they will be linked. That is, the orders associated with a given region in the **Orders** table will also be associated with the people in the same region in the **People** sheet.
         2.  Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
+       
+       <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:360px;">
         
-         <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:360px;">
+        4.  Click on **Ship Date** and drag it to the **Columns** as well
+        5.  Click on **Profit** and drag it to the **Rows**. It will automatically produce **SUM(Profit)**
+        6.  From the **Tables**, grab **Person** and drag it into the **Filters** section and click **OK** in the pop-up window. This will allow us to filter the graph by a specific person
         
-        3.  Click on **Ship Date** and drag it to the **Columns** as well
-        4.  Click on **Profit** and drag it to the **Rows**. It will automatically produce **SUM(Profit)**
-        5.  From the **Tables**, grab **Person** and drag it into the **Filters** section and click **OK** in the pop-up window. This will allow us to filter the graph by a specific person
-        
-            <img src="images\activity-2\show-me-advanced.png" alt="show me menu" style="width:280px;">
+       <img src="images\activity-2\show-me-advanced.png" alt="show me menu" style="width:280px;">
         
         6.  From the **Tables**, grab **Ship Date** and drag it into the **Color** section in the **Marks** pane
         7.  The last step is to click on **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> in the top-right corner and select the **Side-by-Side Bars** option. After that, right-click on the name of your table at the bottom of the pane and rename it **Profit by Year**
