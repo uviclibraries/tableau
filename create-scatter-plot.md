@@ -9,7 +9,7 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 
 Start a new sheet by clicking the icon to the right of the sheet you created.
 
-<img src="images\Tableau 3-1.png" alt="bottom toolbar" style="width:480px;">
+<img src="images\Tableau 3-1.png" alt="bottom toolbar" style="width:300px;">
 
 Now, create a scatter plot showing the relationship between CO2 emissions per capita and GDP per capita across all countries for the past decade.
 
@@ -29,6 +29,8 @@ Now, create a scatter plot showing the relationship between CO2 emissions per ca
 
 </details>
 
+[NEXT STEP: Create a bar graph](create-bar-graph.html){: .btn .btn-blue }
+
 <style>
 
 /* 
@@ -44,8 +46,6 @@ details {
   border-radius: 3px;            /* Slightly rounded corners */
 }
 
-[NEXT STEP: Create a bar graph](create-bar-graph.html){: .btn .btn-blue }
-  
 /*
   This targets <details> ONLY when they are OPEN.
   When the box is expanded, this gives it a different background color 
@@ -63,3 +63,5 @@ summary {
   font-weight: bold;             /* Makes the summary text bold */
   cursor: pointer;               /* Shows a hand cursor to indicate it's clickable */
 }
+
+</style>
