@@ -48,7 +48,6 @@ Since a graph showing all countries may be overwhelming, now try to create a sep
 
 *Hint*: Use the filter option to select only a few countries.
 
-{::options parse_block_html='true' /}
 <details>
 <summary>View suggested solution</summary>
 
@@ -62,7 +61,23 @@ Since a graph showing all countries may be overwhelming, now try to create a sep
 
 </details>
 
-{::options parse_block_html='false'/}
+<style>
+details {
+  border: 2px solid #ccc;
+  background: #f9f9f9;
+  padding: .75em;
+  margin: 1em 0;
+  border-radius: 6px;
+}
 
+details[open] {
+  background: #fffbea;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+</style>
 
 [NEXT STEP: Create a scatter plot](create-scatter-plot.html){: .btn .btn-blue }
