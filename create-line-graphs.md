@@ -21,11 +21,8 @@ Use this comparison as an opportunity to deepen your understanding and refine yo
 
 Create a line chart that shows changes in CO2 emissions over time for the different countries included in the dataset.
 
-{::options parse_block_html='true' /}
 <details>
-<summary>
-View suggested solution
-</summary>
+<summary>View suggested solution</summary>
 
 1.	Click Sheet 1 on the bottom left of the window to start creating a graph. Under the CO2 emissions table heading on the left pane, click and drag the **Year** field to the Columns bar at the top of the sheet, then click and drag the **Annual CO2 emissions (per capita)** field to the Rows bar.
    
@@ -45,9 +42,6 @@ View suggested solution
 
 </details>
 
-{::options parse_block_html='false'/}
-
-
 Since a graph showing all countries may be overwhelming, now try to create a separate graph to isolate one or more select countries (you choose which countries you want to show). For that, you can start a new sheet by clicking on the New Sheet button, or you can duplicate your sheet by right-clicking the current tab at the bottom, then selecting Duplicate. 
 
 <img src="images\Tableau 2-5.png" alt="bottom toolbar">
@@ -56,9 +50,7 @@ Since a graph showing all countries may be overwhelming, now try to create a sep
 
 {::options parse_block_html='true' /}
 <details>
-<summary>
-View suggested solution
-</summary>
+<summary>View suggested solution</summary>
 
 1. In your new duplicated sheet, drag either the **Country Name** field to the Filters shelf, then select the country or countries you would like to display (you may need to click None below the country list to unselect all first). Click OK. Rename your new graph accordingly.
 
