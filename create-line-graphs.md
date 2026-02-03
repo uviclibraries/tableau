@@ -24,11 +24,11 @@ Create a line chart that shows changes in CO2 emissions over time for the differ
 <details>
 <summary>View suggested solution</summary>
 
-1.	Click Sheet 1 on the bottom left of the window to start creating a graph. Under the CO2 emissions table heading on the left pane, click and drag the **Year** field to the Columns bar at the top of the sheet, then click and drag the **Annual CO2 emissions (per capita)** field to the Rows bar.
+1.	Click Sheet 1 on the bottom left of the window to start creating a graph. Under the CO2 emissions table heading on the left pane, click and drag the Year field to the Columns bar at the top of the sheet, then click and drag the Annual CO2 emissions (per capita) field to the Rows bar.
 <br/>  
    <img src="images\Tableau-2-1.gif" alt="bottom toolbar" style="width:480px;">
 <br/>   
-2.	Click and drag either the **Entity** field or the **Country Name** (under the GDP per capita table) field to the Marks shelf. There, click the icon beside Country Name and select Color. You have now created a line graph showing changes in CO2 emissions over time for all countries. Clicking on a country in the legend will isolate its corresponding line on the map.
+2.	Click and drag either the Entity field or the Country Name (under the GDP per capita table) field to the Marks shelf. There, click the icon beside Country Name and select Color. You have now created a line graph showing changes in CO2 emissions over time for all countries. Clicking on a country in the legend will isolate its corresponding line on the map.
 <br/>   
    <img src="images\Tableau-2-2.gif" alt="bottom toolbar" style="width:480px;">
 <br/>     
@@ -51,11 +51,11 @@ Since a graph showing all countries may be overwhelming, now try to create a sep
 <details>
 <summary>View suggested solution</summary>
 
-1. In your new duplicated sheet, drag either the **Country Name** field to the Filters shelf, then select the country or countries you would like to display (you may need to click None below the country list to unselect all first). Click OK. Rename your new graph accordingly.
+1. In your new duplicated sheet, drag either the Country Name field to the Filters shelf, then select the country or countries you would like to display (you may need to click None below the country list to unselect all first). Click OK. Rename your new graph accordingly.
 <br/>
    <img src="images\Tableau-2-6.gif" alt="bottom toolbar" style="width:480px;">
 <br/>  
-2. Alternatively, you click on the **Top** tab in the filter option (if you want to go back to it, right-click on **Country Name** under Filters and click on **Edit filter**), and choose the top 10 (or 20) countries with the highest average annual C02 emissions.
+2. Alternatively, you click on the Top tab in the filter option (if you want to go back to it, right-click on Country Name under Filters and click on Edit filter), and choose the top 10 (or 20) countries with the highest average annual C02 emissions.
 <br/>
    <img src="images\filter-countries.png" alt="top-10-countries" style="width:480px;">
 <br/>  
