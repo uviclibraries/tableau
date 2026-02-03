@@ -71,11 +71,11 @@ Since a graph showing all countries may be overwhelming, now try to create a sep
   and a light gray background so they look like "boxed" sections.
 */
 details {
-  border: 2px solid #ccc;        /* Gray border around the details box */
+  border: 1px solid #ccc;        /* Gray border around the details box */
   background: #f9f9f9;           /* Light gray background color */
   padding: .75em;                /* Space inside the box */
   margin: 1em 0;                 /* Space above and below the box */
-  border-radius: 6px;            /* Slightly rounded corners */
+  border-radius: 3px;            /* Slightly rounded corners */
 }
 
 /*
