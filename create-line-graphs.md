@@ -43,7 +43,10 @@ View suggested solution
    
    <img src="images\Tableau 2-4b.png" alt="bottom toolbar">
 
+</details>
+
 {::options parse_block_html='false'/}
+
 
 Since a graph showing all countries may be overwhelming, now try to create a separate graph to isolate one or more select countries (you choose which countries you want to show). For that, you can start a new sheet by clicking on the New Sheet button, or you can duplicate your sheet by right-clicking the current tab at the bottom, then selecting Duplicate. 
 
@@ -65,6 +68,9 @@ View suggested solution
 
    <img src="images\filter-countries.png" alt="top-10-countries" style="width:480px;">
 
+</details>
+
 {::options parse_block_html='false'/}
+
 
 [NEXT STEP: Create a scatter plot](create-scatter-plot.html){: .btn .btn-blue }
