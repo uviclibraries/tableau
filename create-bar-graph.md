@@ -29,13 +29,22 @@ The IIF function assesses the logical expression Year = 2023 and returns the Ann
 
 1.	Drag the Annual CO2 emissions (per capita) field into the Columns shelf and either the Entity or Country Name field into the Rows shelf.
 <br/>
+   <img src="images\barchart1.gif" alt="bottom toolbar" style="width:480px;">
+<br/> 
 2.	Drag the Year field to the Filters shelf. To show data from 2023 only, enter 2023 to 2023 in the Range of Values tab. Click OK.
 <br/>
+   <img src="images\barchart1.gif" alt="bottom toolbar" style="width:480px;">
+<br/> 
 3.	Drag either the Country Name or Entity field into the Filters shelf. To show the top 10 countries with the highest CO2 emissions, click the Top tab in the window that pops up, select By formula and type `SUM(IIF([Year (co-emissions-per-capita.csv)]=2023, [Annual CO₂ emissions (per capita)], 0))`. Click OK.
 <br/>
+   <img src="images\barchart1.gif" alt="bottom toolbar" style="width:480px;">
+<br/> 
 4.	To sort the bars from highest to lowest, right-click on the Entity (or Country Name) field in the Rows shelf, and click on "Sort...". Select "Field" under Sort By, choosing "Descending" in Sort Order, and Annual CO2 emissions in the Field Name. Then, exit the pop-up window by clicking on the X in the top right.
 <br/>
 5.	Name the graph "Countries with the highest CO2 emissions in 2023".
+<br/>
+   <img src="images\barchart1.gif" alt="bottom toolbar" style="width:480px;">
+<br/> 
 
 </details>
 
