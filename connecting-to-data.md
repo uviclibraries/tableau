@@ -54,7 +54,7 @@ _Please note that creating a Tableau account and using the application requires 
     - Click the **"+"** in the **YEAR(Order Date)** blue pill and drill down to get quarters
     - Click **Show Me** (top right) to display the different plot types that Tableau recommends. Try a few and think about their effect on the 4 data visualization principles
     
-    <img src="images\activity-1\show-me.png" alt="different plot types" style="width:720px;">
+<img src="images\activity-1\show-me.png" alt="different plot types" style="width:720px;">
     
     - The **Marks** card area (to the left of the visualization charts) is where you can control the visual features of your plot. Try changing the colour and size
     - You can also control the visual appearance of your plot according to dimensions of interest. For example, right-click drag the **Category** dimension onto the **Color** card. Select **Category** in the dialogue box that appears. Please note that the dialog box does not always appear
