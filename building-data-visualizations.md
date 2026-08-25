@@ -85,7 +85,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet. In
     
     - Create a new sheet by clicking on the <img src="images\activity-2\icon.png" alt="new sheet icon" style="width:30px;"> icon in the page-bottom menu
     - From the dimensions list, right-click on **Order Date** and drag to the columns shelf. From the dialogue box that appears, select the **QUARTER(Order Date)** measure option (green w/ calendar & clock icon) (see figure **->**). Note: this may not automatically appear. For Windows users, click the little arrow next to **YEAR(Order Date)** to select Quarter. for Mac users, click on the **"+"** next to **YEAR(Order Date)**
-    - From the measures list, right-click on **Sales** and drag to the rows shelf. Select **CNT(Sales)** from the pop-up box
+    - From the measures list, right-click on **Sales** and drag to the rows shelf. From the drop-down menu, hover over "Measure" and then select **Count**
     - Again, from the measures list, right-click on **Profit** and drag to the rows shelf, then select **SUM(Profit)**
     - From the dimensions list, right-click on **Category** and drag to the rows shelf
 
