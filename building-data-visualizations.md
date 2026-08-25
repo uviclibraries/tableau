@@ -96,7 +96,7 @@ We are continuing to use the Global Superstore Orders 2016 Excel spreadsheet. In
 
 
 
-   - Click the **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> (top-right) and select the **dual combination chart** (3rd up from the bottom right). Click again on the **Show Me** icon again to close it
+   - Click the **Show Me** icon <img src="images\activity-2\show-me.png" alt="show me icon" style="width:60px;"> (top-right) and select the **Bar line chart** (3rd up from the bottom right). Click again on the **Show Me** icon again to close it
    - Rename the title to **Quarterly Profit and Sales by Product**
 
 <button onclick="toggle('gif6')">Show/Hide Animation</button>
