@@ -42,6 +42,7 @@ _Please note that creating a Tableau account and using the application requires 
         - Click and drag the **Sales** measure into the **Rows** shelf (top)
         - In the dialogue box that appears, select **AVG(Sales)** for average sales
         - Click and drag the **Order Date** dimension into the **Columns** shelf (top)
+        - In the dialogue box that appears, click **YEAR(Order Date)** if not already selected. In Tableau, it will automatically create a visualization
         
 
     <button onclick="toggle('gif2')">Show/Hide Animation</button>
@@ -49,9 +50,6 @@ _Please note that creating a Tableau account and using the application requires 
           <img src="images\activity-1\relationship.gif" alt="setting up a relationship animated" style="width:720px;"><br>
      </div>
 
-
-          
-- In the dialogue box that appears, select **YEAR(Order Date)**. In Tableau, it will automatically create a visualization
 
     - Click the **"+"** in the **YEAR(Order Date)** blue pill and drill down to get quarters
     - Click **Show Me** (top right) to display the different plot types that Tableau recommends. Try a few and think about their effect on the 4 data visualization principles
