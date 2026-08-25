@@ -117,7 +117,7 @@ Above, you saw how to create different types of graphs. Now we are going to crea
    <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:180px;">
     
    -   **Profit by Year Graph**
-        1.  Return to **Data Source** and drag the **People** sheet to the same area as **Orders**. Because both tables have a variable called **Region**, they will be linked. That is, the orders associated with a given region in the **Orders** table will also be associated with the people in the same region in the **People** sheet.
+        1.  Go to **Data Source** in the bottom left corner and drag the **People** sheet to the same area as **Orders**. Because both tables have a variable called **Region**, they will be linked. That is, the orders associated with a given region in the **Orders** table will also be associated with the people in the same region in the **People** sheet.
         2.  Click on the **New Worksheet** tab at the bottom of the graph from the tables menu, click and drag **Person** to the **Columns**
        
        <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:360px;">
