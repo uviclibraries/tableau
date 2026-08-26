@@ -1,10 +1,9 @@
 ---
 layout: default
-title: CO2 Emissions Activity UNDER DEVELOPMENT
+title: CO2 Emissions Activity
 parent: Workshop Activities
 nav_order: 7
 has_children: true
 has_toc: true
 ---
-# UNDER DEVELOPMENT
 # CO2 Emissions Activity (optional)
