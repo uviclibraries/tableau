@@ -111,9 +111,8 @@ In this activity, we will create different types of visualizations in Tableau to
 4. **Building Sales Graphs for the Interactive Dashboard**<br>
 
 Above, you learned how to create different types of graphs. Now we will create additional charts that we will later combine into a single interactive dashboard.
-    
-    
-4. **Profit by Year Graph**
+
+- **Profit by Year Graph**
    - Go to **Data Source** in the bottom-left corner. From the **Sheets** list, drag the **People** sheet onto the same area as the **Orders** sheet. Because both tables contain a field called **Region**, Tableau will automatically create a relationship between the two tables using **Region**. This allows information from the **People** table to be used alongside information from the **Orders** table
    - Click the **New Worksheet** icon at the bottom of the window to create a new worksheet <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:150px;">
    - From the **People** table in the **Data** pane, click and drag **Person** to the **Columns** shelf <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:300px;">
@@ -139,7 +138,7 @@ Above, you learned how to create different types of graphs. Now we will create a
             
      <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:200px;">
     
-6. **Orders by Person Graph**
+5. **Orders by Person Graph**
    - Click the **New Worksheet** icon at the bottom of the window to create a new worksheet
    - From the **People** table in the **Data** pane, click and drag **Person** to the **Rows** shelf
         
@@ -155,7 +154,7 @@ Above, you learned how to create different types of graphs. Now we will create a
        <img src="images\activity-2\orders-by-person.png" alt="orders by person graph final output" style="width:720px;">
 
     <img src="images\activity-2\sub-category.png" alt="filters and marks menus" style="float:right;width:120px;">
-7.  **Date/Category/Profit Graph**
+6.  **Date/Category/Profit Graph**
     - Click the **New Worksheet** icon at the bottom of the window to create a new worksheet
     - From the **Orders** table in the **Data** pane, click and drag **Ship Date** to the **Columns** shelf
     - From the **Orders** table in the **Data** pane, click and drag **Category** to the **Columns** shelf
@@ -166,8 +165,8 @@ Above, you learned how to create different types of graphs. Now we will create a
    <img src="images\activity-2\columns-rows-4(3).png" alt="columns and rows logo" style="width:480px;">
         
 - From the **Orders** table in the **Data** pane, click and drag **Sub-Category** to **Color** on the **Marks** card
-    - From the **Orders** table in the **Data** pane, click and drag **Country** to the **Filters** shelf. In the filter window that appears, select **All** and click **OK**
-    - Rename the worksheet by right-clicking its sheet tab at the bottom of the window and selecting **Rename**. Rename it **Date/Category/Profit**
+- From the **Orders** table in the **Data** pane, click and drag **Country** to the **Filters** shelf. In the filter window that appears, select **All** and click **OK**
+- Rename the worksheet by right-clicking its sheet tab at the bottom of the window and selecting **Rename**. Rename it **Date/Category/Profit**
         
 <img src="images\activity-2\date-category-profit.gif" alt="date category profit graph" style="width:720px;">
         
