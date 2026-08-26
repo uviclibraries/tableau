@@ -15,8 +15,8 @@ If you and your group have any questions or get stuck as you work through this i
     - Click the Dashboard icon <img src="images\activity-3\icon-dashboard.png" alt="new dashboard icon" style="width:30px;"> on the bottom toolbar to open a dashboard worksheet.
     - On the left side toolbar, under the **Size** heading, click the drop-down arrow to the right of **Range** and select **Automatic**. This will adjust to the size of your dashboard to fit the size of any screen it is displayed on
     - The various sheets you have created in Activity 2 will all be displayed on the left side toolbar, under the **Sheets** heading
-    - Drag and drop the map visualization anywhere on the dashboard.
-    - Drag and drop the bar chart and line graph visualization onto the bottom half of the dashboard. Both visualizations should now be displayed top to bottom.
+    - Drag and drop the map visualization (Total Sales by Country) anywhere on the dashboard.
+    - Drag and drop the bar line chart (Quarterly Profit and Sales by Product) visualization onto the bottom half of the dashboard. Both visualizations should now be displayed top to bottom.
 
 <button onclick="toggle('gif1')">Show/Hide Animation</button>
 <div id="gif1">
