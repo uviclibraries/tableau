@@ -112,14 +112,13 @@ In this activity, we will create different types of visualizations in Tableau to
 
 Above, you learned how to create different types of graphs. Now we will create additional charts that we will later combine into a single interactive dashboard.
     
-   <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:180px;">
     
    -   **Profit by Year Graph**
          1. Go to **Data Source** in the bottom-left corner. From the **Sheets** list, drag the **People** sheet onto the same area as the **Orders** sheet. Because both tables contain a field called **Region**, Tableau will automatically create a relationship between the two tables using **Region**. This allows information from the **People** table to be used alongside information from the **Orders** table
-        2. Click the **New Worksheet** icon at the bottom of the window to create a new worksheet
+        2. Click the **New Worksheet** icon at the bottom of the window to create a new worksheet <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:150px;">
         3. From the **People** table in the **Data** pane, click and drag **Person** to the **Columns** shelf
        
-       <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:300px;">
+           <img src="images\activity-2\another-icon-menu.png" alt="filter menu" style="float:right;width:300px;">
         
         4. From the **Orders** table in the **Data** pane, click and drag **Ship Date** to the **Columns** shelf
         5. From the **Orders** table in the **Data** pane, click and drag **Profit** to the **Rows** shelf. Tableau will automatically use **SUM(Profit)**
