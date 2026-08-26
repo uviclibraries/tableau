@@ -27,18 +27,18 @@ For this activity, we will create visualizations about CO2 emissions per country
 5. Then, connect Tableau to these datasets. On the blue pane on the left, under **Connect**, click Text file. This will allow you to select one of the .csv files that you downloaded. Start with the gdp-per-capita-worldbank.csv file.
 6. You can now view the spreadsheet in the bottom pane. As you can see, the column containing country names is called **Entity**. We want a more descriptive name, so we will rename that column.
 7. Hover over the top row of the sheet and click the arrow at the top right of the column called **Entity**.
-8. Select Rename and Rename this column to **Country Name**.
+8. Select **Rename** and change this column to **Country Name**.
 9. Hover over the top row of this column and click the arrow again, then select Create Group. Click OK. This will allow Tableau to later automatically generate a map based on country names.
 
    <img src="images\Tableau1-3.gif" alt="bottom toolbar" style="width:480px;">
 
-10. Connect the second file that you downloaded. Click Add beside Connections on the top left and select Text file again.
+10. Connect the second file that you downloaded. Click the small + button beside Connections on the top left and select Text file again.
 11. To join both spreadsheets, select the second spreadsheet under Connections, then click and drag the file name under Files (below Connections) to an empty space on the right.
 
 12. You will see that both datasets will appear connected by a line, but an error icon signals that something is wrong with the relationship between the two datasets. In this case, you have to specify to Tableau which column should connect both tables. To do this, we will use the box on the bottom left.
-13. Select Country Name under the GDP per capita file, the = symbol under Operator, and Entity under the CO2 emissions per capita file. This tells Tableau that these columns contain the same identifiers across both sheets. The error icon should disappear after this.
+13. Select **Country Name** under the **GDP per capita file**, the **=** symbol under **Operator**, and **Entity** under the **CO2 emissions per capita** file. This tells Tableau that these columns contain the same identifiers across both sheets. The error icon should disappear after this.
 
-   <img src="images\Tableau1-2.gif" alt="bottom toolbar" style="width:480px;">
+      <img src="images\Tableau1-2.gif" alt="bottom toolbar" style="width:480px;">
 
 14. You have now connected to the two datasets, and specified how they are linked by the Country Name column. Now save your file by clicking File > Save as on your computer toolbar. Since Tableau may crash from time to time, we recommend saving your work frequently by clicking File > Save.
 
