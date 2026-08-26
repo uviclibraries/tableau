@@ -14,8 +14,7 @@ We are continuing to use the **Global Superstore Orders 2016** Excel spreadsheet
 
 In this activity, we will create different types of visualizations in Tableau to explore different trends in the data. In the next activity, you will learn how to combine these visualizations into a single interactive dashboard.
 
-
-1.  **Treemap: Total Profit by Region**
+### **Treemap: Total Profit by Region**
     - Create a new worksheet by clicking the <img src="images\activity-2\icon.png" alt="new worksheet icon" style="width:30px;"> icon at the bottom of the window.
     - From the **Dimensions** list, right-click **Region** and drag it to the **Rows** shelf
 
@@ -38,11 +37,8 @@ In this activity, we will create different types of visualizations in Tableau to
 
     <img src="images\activity-2\treemaps.png" alt="treemaps" style="width:720px;">
 
-2.  **World Map: Total Sales by Country**
+### **World Map: Total Sales by Country**
     - Create a new worksheet by clicking the <img src="images\activity-2\icon.png" alt="new worksheet icon" style="width:30px;"> icon at the bottom of the window
-
-    <img src="images\activity-2\calculated-field.png" alt="calculated field menu" style="float:right;width:360px;">
-
     - From the **Dimensions** list, right-click **Country** and drag it to the central **Drop field here** area in the middle of the screen. Select **Country** from the menu that appears
     - To create a new measure, click **Analysis** in the top menu bar and select **Create Calculated Field** from the drop-down menu. 
     - **Mac users:** The **Analysis** menu is located in the Mac menu bar at the very top of the screen rather than in the Tableau application window
@@ -80,7 +76,7 @@ In this activity, we will create different types of visualizations in Tableau to
 
     <img src="images\activity-2\final-color.png" alt="final map output" style="width:720px;">
 
-3.  **Line & Bar Chart (Dual Combo): Quarterly Profit and Number of Sales by Product 2012-2015**
+### **Line & Bar Chart (Dual Combo): Quarterly Profit and Number of Sales by Product 2012-2015**
     
     <img src="images\activity-2\new-sheet.png" alt="drop field menu" style="float:right;width:240px;">
     
@@ -112,7 +108,7 @@ In this activity, we will create different types of visualizations in Tableau to
 
     <img src="images\activity-2\linebar.png" alt="final linebar output" style="width:720px;">
 
-4.  **Building Sales Graphs for the Interactive Dashboard**<br>
+### **Building Sales Graphs for the Interactive Dashboard**<br>
 
 Above, you learned how to create different types of graphs. Now we will create additional charts that we will later combine into a single interactive dashboard.
     
