@@ -13,10 +13,10 @@ If you and your group have any questions or get stuck as you work through this i
 ## Part 1
 1.  Building a data dashboard
     - Click the **Dashboard** icon <img src="images\activity-3\icon-dashboard.png" alt="new dashboard icon" style="width:30px;"> on the bottom toolbar to create a new dashboard.
-- On the left side of the window, under **Size**, click the drop-down arrow next to **Range** and select **Automatic**. This will automatically adjust the size of the dashboard to fit the screen on which it is displayed.
-- Under **Sheets** on the left side, you will see the worksheets you created in Activity 2.
-- From the **Sheets** list, drag the **Total Sales by Country** map onto the dashboard.
-- From the **Sheets** list, drag the **Quarterly Profit and Sales by Product** chart onto the bottom half of the dashboard. The two visualizations should now be arranged from top to bottom.
+    - On the left side of the window, under **Size**, click the drop-down arrow next to **Range** and select **Automatic**. This will automatically adjust the size of the dashboard to fit the screen on which it is displayed. <img src="images\activity-3\2-dashboard-menu.png" alt="dashboard menu" style="float:right;width:250px;">
+    - Under **Sheets** on the left side, you will see the worksheets you created in Activity 2.
+    - From the **Sheets** list, drag the **Total Sales by Country** map onto the dashboard.
+    - From the **Sheets** list, drag the **Quarterly Profit and Sales by Product** chart onto the bottom half of the dashboard. The two visualizations should now be arranged from top to bottom.
 
 <button onclick="toggle('gif1')">Show/Hide Animation</button>
 <div id="gif1">
@@ -53,8 +53,6 @@ If you and your group have any questions or get stuck as you work through this i
 ## Part 2
 
 This part will cover the creation of an interactive dashboard using the visualizations created in Activity 2.
-
-<img src="images\activity-3\2-dashboard-menu.png" alt="dashboard menu" style="float:right;width:360px;">
 
 - Click the **Dashboard** icon <img src="images\activity-3\icon-dashboard.png" alt="new dashboard icon" style="width:30px;"> on the bottom toolbar to create a new dashboard.
 - On the left side of the window, under **Size**, click the drop-down arrow next to **Range** and select **Automatic**. This will automatically adjust the size of the dashboard to fit the screen on which it is displayed.
