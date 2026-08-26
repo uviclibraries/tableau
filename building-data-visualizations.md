@@ -99,10 +99,8 @@ In this activity, we will create different types of visualizations in Tableau to
           <img src="images\activity-2\linebar-1.gif" alt="making a line bar graph" style="width:720px;"> <br>
      </div> 
 
-
-
-    - Click the **Show Me** icon <img src="images\activity-2\show-me.png" alt="Show Me icon" style="width:60px;"> in the top-right corner and select the **Bar Line Chart** option (3rd option up from the bottom-right). Click the **Show Me** icon again to close the menu
-    - Rename the worksheet by right-clicking its sheet tab at the bottom of the window and selecting **Rename**. Rename it **Quarterly Profit and Sales by Product**
+- Click the **Show Me** icon <img src="images\activity-2\show-me.png" alt="Show Me icon" style="width:60px;"> in the top-right corner and select the **Bar Line Chart** option (3rd option up from the bottom-right). Click the **Show Me** icon again to close the menu
+- Rename the worksheet by right-clicking its sheet tab at the bottom of the window and selecting **Rename**. Rename it **Quarterly Profit and Sales by Product**
 
 <button onclick="toggle('gif6')">Show/Hide Animation</button>
 <div id="gif6">
