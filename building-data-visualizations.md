@@ -15,18 +15,18 @@ We are continuing to use the **Global Superstore Orders 2016** Excel spreadsheet
 In this activity, we will create different types of visualizations in Tableau to explore different trends in the data. In the next activity, you will learn how to combine these visualizations into a single interactive dashboard.
 
 ### **Treemap: Total Profit by Region**
-    - Create a new worksheet by clicking the <img src="images\activity-2\icon.png" alt="new worksheet icon" style="width:30px;"> icon at the bottom of the window.
-    - From the **Dimensions** list, right-click **Region** and drag it to the **Rows** shelf
+- Create a new worksheet by clicking the <img src="images\activity-2\icon.png" alt="new worksheet icon" style="width:30px;"> icon at the bottom of the window.
+- From the **Dimensions** list, right-click **Region** and drag it to the **Rows** shelf
 
     <img src="images\activity-2\rows.png" alt="columns and rows" style="float:right;width:360px;">
 
-    - From the **Measures** list, right-click **Profit** and drag it to the **Columns** shelf. Tableau will default to **SUM(Profit)** and display a bar chart showing both negative and positive profits
-    - Click the **Show Me** icon <img src="images\activity-2\show-me.png" alt="Show Me icon" style="width:60px;"> in the top-right corner of the screen to view the visualizations Tableau recommends
-    - Select **Treemap** (4th option down on the left)
-    - A grey **3 negative** indicator should appear in the bottom-right corner. Click this indicator to view the two options for dealing with the negative values: **Filter Data** or **Use Absolute Values**
-    - Select **Use Absolute Values**. The negative values will appear as the same size as positive values, but in a different colour
-    - Rename the worksheet by right-clicking the **Sheet 2** tab at the bottom of the window and selecting **Rename**. Rename it **Profit by Region Treemap**. The visualization title will automatically update to reflect the new worksheet name. You can right-click the visualization title if you would like to edit it further
-    - **Remember:** If you make a mistake, use the back arrow at the top-left of the toolbar to undo your last action
+- From the **Measures** list, right-click **Profit** and drag it to the **Columns** shelf. Tableau will default to **SUM(Profit)** and display a bar chart showing both negative and positive profits
+- Click the **Show Me** icon <img src="images\activity-2\show-me.png" alt="Show Me icon" style="width:60px;"> in the top-right corner of the screen to view the visualizations Tableau recommends
+- Select **Treemap** (4th option down on the left)
+- A grey **3 negative** indicator should appear in the bottom-right corner. Click this indicator to view the two options for dealing with the negative values: **Filter Data** or **Use Absolute Values**
+- Select **Use Absolute Values**. The negative values will appear as the same size as positive values, but in a different colour
+- Rename the worksheet by right-clicking the **Sheet 2** tab at the bottom of the window and selecting **Rename**. Rename it **Profit by Region Treemap**. The visualization title will automatically update to reflect the new worksheet name. You can right-click the visualization title if you would like to edit it further
+- **Remember:** If you make a mistake, use the back arrow at the top-left of the toolbar to undo your last action
 
 <button onclick="toggle('gif1')">Show/Hide Animation</button>
 <div id="gif1">
@@ -38,12 +38,12 @@ In this activity, we will create different types of visualizations in Tableau to
     <img src="images\activity-2\treemaps.png" alt="treemaps" style="width:720px;">
 
 ### **World Map: Total Sales by Country**
-    - Create a new worksheet by clicking the <img src="images\activity-2\icon.png" alt="new worksheet icon" style="width:30px;"> icon at the bottom of the window
-    - From the **Dimensions** list, right-click **Country** and drag it to the central **Drop field here** area in the middle of the screen. Select **Country** from the menu that appears
-    - To create a new measure, click **Analysis** in the top menu bar and select **Create Calculated Field** from the drop-down menu. 
-    - **Mac users:** The **Analysis** menu is located in the Mac menu bar at the very top of the screen rather than in the Tableau application window
-    - The **Calculation Editor** will open. Rename the calculated field from **Calculation1** to **Profit per Item**
-    - In the formula area, create the calculation for profit per item by dragging **Profit** from the **Data** pane into the formula area, typing `/`, and then dragging **Quantity** into the formula area. Your calculation should divide **Profit** by **Quantity**
+- Create a new worksheet by clicking the <img src="images\activity-2\icon.png" alt="new worksheet icon" style="width:30px;"> icon at the bottom of the window
+- From the **Dimensions** list, right-click **Country** and drag it to the central **Drop field here** area in the middle of the screen. Select **Country** from the menu that appears
+- To create a new measure, click **Analysis** in the top menu bar and select **Create Calculated Field** from the drop-down menu. 
+- **Mac users:** The **Analysis** menu is located in the Mac menu bar at the very top of the screen rather than in the Tableau application window
+- The **Calculation Editor** will open. Rename the calculated field from **Calculation1** to **Profit per Item**
+- In the formula area, create the calculation for profit per item by dragging **Profit** from the **Data** pane into the formula area, typing `/`, and then dragging **Quantity** into the formula area. Your calculation should divide **Profit** by **Quantity**
 
 <button onclick="toggle('gif2')">Show/Hide Animation</button>
 <div id="gif2">
@@ -78,9 +78,9 @@ In this activity, we will create different types of visualizations in Tableau to
 
 ### **Line & Bar Chart (Dual Combo): Quarterly Profit and Number of Sales by Product 2012-2015**
     
-    <img src="images\activity-2\new-sheet.png" alt="drop field menu" style="float:right;width:240px;">
+<img src="images\activity-2\new-sheet.png" alt="drop field menu" style="float:right;width:240px;">
     
-    - Create a new worksheet by clicking the <img src="images\activity-2\icon.png" alt="new worksheet icon" style="width:30px;"> icon at the bottom of the window
+- Create a new worksheet by clicking the <img src="images\activity-2\icon.png" alt="new worksheet icon" style="width:30px;"> icon at the bottom of the window
     - From the **Dimensions** list, right-click **Order Date** and drag it to the **Columns** shelf
     - From the menu that appears, select **QUARTER(Order Date)**. Note: This option may not automatically appear
         - **Windows users:** Click the small arrow next to **YEAR(Order Date)** and select **Quarter**
@@ -159,7 +159,7 @@ Above, you learned how to create different types of graphs. Now we will create a
             <img src="images\activity-2\orders-by-person.png" alt="orders by person graph final output" style="width:720px;">
 
     <img src="images\activity-2\sub-category.png" alt="filters and marks menus" style="float:right;width:120px;">
-    -   **Date/Category/Profit Graph**
+-   **Date/Category/Profit Graph**
         1. Click the **New Worksheet** icon at the bottom of the window to create a new worksheet
         2. From the **Orders** table in the **Data** pane, click and drag **Ship Date** to the **Columns** shelf
         3. From the **Orders** table in the **Data** pane, click and drag **Category** to the **Columns** shelf
@@ -169,7 +169,7 @@ Above, you learned how to create different types of graphs. Now we will create a
         
             <img src="images\activity-2\columns-rows-4(3).png" alt="columns and rows logo" style="width:480px;">
         
-        7. From the **Orders** table in the **Data** pane, click and drag **Sub-Category** to **Color** on the **Marks** card
+  7. From the **Orders** table in the **Data** pane, click and drag **Sub-Category** to **Color** on the **Marks** card
         8. From the **Orders** table in the **Data** pane, click and drag **Country** to the **Filters** shelf. In the filter window that appears, select **All** and click **OK**
         9. Rename the worksheet by right-clicking its sheet tab at the bottom of the window and selecting **Rename**. Rename it **Date/Category/Profit**
         
