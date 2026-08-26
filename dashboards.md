@@ -12,59 +12,67 @@ If you and your group have any questions or get stuck as you work through this i
 
 ## Part 1
 1.  Building a data dashboard
-    - Click the Dashboard icon <img src="images\activity-3\icon-dashboard.png" alt="new dashboard icon" style="width:30px;"> on the bottom toolbar to open a dashboard worksheet.
-    - On the left side toolbar, under the **Size** heading, click the drop-down arrow to the right of **Range** and select **Automatic**. This will adjust to the size of your dashboard to fit the size of any screen it is displayed on
-    - The various sheets you have created in Activity 2 will all be displayed on the left side toolbar, under the **Sheets** heading
-    - Drag and drop the map visualization (Total Sales by Country) anywhere on the dashboard.
-    - Drag and drop the bar line chart (Quarterly Profit and Sales by Product) visualization onto the bottom half of the dashboard. Both visualizations should now be displayed top to bottom.
+    - Click the **Dashboard** icon <img src="images\activity-3\icon-dashboard.png" alt="new dashboard icon" style="width:30px;"> on the bottom toolbar to create a new dashboard.
+- On the left side of the window, under **Size**, click the drop-down arrow next to **Range** and select **Automatic**. This will automatically adjust the size of the dashboard to fit the screen on which it is displayed.
+- Under **Sheets** on the left side, you will see the worksheets you created in Activity 2.
+- From the **Sheets** list, drag the **Total Sales by Country** map onto the dashboard.
+- From the **Sheets** list, drag the **Quarterly Profit and Sales by Product** chart onto the bottom half of the dashboard. The two visualizations should now be arranged from top to bottom.
 
 <button onclick="toggle('gif1')">Show/Hide Animation</button>
 <div id="gif1">
            <img src="images\activity-3\1-setup.gif" alt="building a dashboard" style="width:720px;"><br>
      </div>
 
-    
 <img src="images\activity-3\1-filter-icon-cropped.png" alt="filter icon" style="float:right;width:120px;">
 
-2.  Creating a visualization filter
-    - Click the white space on the top of the map visualization. Icons should appear on the rop right corner. Select the filter icon to enable the map to operate as a filter
-    - Click on any of the countries on the map to automatically adjust the sales and profit data to reflect the selected country on the figure below
+### 2. Creating a Visualization Filter
+
+- Click the white space on the **Total Sales by Country** map. Icons should appear in the top-right corner of the visualization.
+- Click the **Use as Filter** icon to make the map act as a filter for the other visualization.
+- Click on any country on the map. The **Quarterly Profit and Sales by Product** chart will automatically update to display data for the selected country.
 
 <button onclick="toggle('gif2')">Show/Hide Animation</button>
 <div id="gif2">
-            <img src="images\activity-3\1-filter.gif" alt="tableau logo" style="width:720px;"><br>
+            <img src="images\activity-3\1-filter.gif" alt="using a visualization as a filter" style="width:720px;"><br>
      </div>
 
-   
-3.  Saving your figures and dashboard to Tableau public
-    - Click **File > Save to Tableau Public As...**
-    - Sign in to the login screen that appears. To save the visualizations online, you must create an account
-4.  Saving your figures and dashboard in Tableau Desktop
-    - Click **File > Save as** and save to the desired location
+### 3. Saving Your Visualizations and Dashboard to Tableau Public
+
+- Click **File > Save to Tableau Public As...**
+- Sign in when prompted. If you do not already have a Tableau Public account, you will need to create one.
+- Your workbook, including the visualizations and dashboard, will be saved to Tableau Public.
+
+### 4. Saving Your Workbook in Tableau Desktop
+
+- Click **File > Save As** and save the workbook to your desired location.
 
 **Your final output should look like this:**
 
 <img src="images\activity-3\1-final.png" alt="dashboard final output" style="width:720px;">
 
 ## Part 2
-This part will cover the creation of an interactive dashboard based on the previously created graphs
+
+This part will cover the creation of an interactive dashboard using the visualizations created in Activity 2.
 
 <img src="images\activity-3\2-dashboard-menu.png" alt="dashboard menu" style="float:right;width:360px;">
 
--   Click the **Dashboard** icon <img src="images\activity-3\icon-dashboard.png" alt="new dashboard icon" style="width:30px;"> on the bottom toolbar to open a dashboard worksheet
--   On the left side under **Size**, click on the drop-down arrow to the right of **Range** and select **Automatic**. This will allow you to have a full-screen dashboard
--   Also on the left side, you should see your graphs: **Profit by Year**, **Order by Person**, and **Date/Category/Profit**
--   Click on **Date/Category/Profit** and drag it onto the dashboard. It will take the full space of the dashboard
--   Click on **Profit by Year** and drag it onto the lower half of the dashboard. Tableau will allow you to put them anywhere and will adjust sizes automatically. So far your dashboard should look like this:
+- Click the **Dashboard** icon <img src="images\activity-3\icon-dashboard.png" alt="new dashboard icon" style="width:30px;"> on the bottom toolbar to create a new dashboard.
+- On the left side of the window, under **Size**, click the drop-down arrow next to **Range** and select **Automatic**. This will automatically adjust the size of the dashboard to fit the screen on which it is displayed.
+- Under **Sheets** on the left side, you should see the following worksheets: **Profit by Year**, **Orders by Person**, and **Date/Category/Profit**.
+- From the **Sheets** list, drag **Date/Category/Profit** onto the dashboard. It will initially take up the available space on the dashboard.
+- From the **Sheets** list, drag **Profit by Year** onto the lower half of the dashboard. Tableau will allow you to place the visualizations in different areas of the dashboard and will automatically adjust their sizes. At this point, your dashboard should look like this:
 
 <img src="images\activity-3\2-filter-setup.png" alt="filter setup" style="width:720px;">
 
--   Click on **Orders by Person** and drag it onto the lower right side of the dashboard. To make it look more presentable, manually resize it so it is not taking too much space. Play around with placements of graphs, the goal is to present something that tells a story
+- From the **Sheets** list, drag **Orders by Person** onto the lower-right side of the dashboard.
+- Manually resize **Orders by Person** so that it does not take up too much space. Experiment with the placement and size of the visualizations. The goal is to create a dashboard that presents the data in a clear and meaningful way.
 
 <img src="images\activity-3\2-filter-icon.png" alt="filter icon" style="float:right;width:90px;">
 
--   Now comes the most important part. One of the best-known features of Tableau is the ability to interact with data on the go. Click on your **Orders by Person** graph on the dashboard and you should see a little menu pop up on the side (could be on the right or left depending on the placement of the graph). Click on the **Use as Filter** option
--   Now click on any name on the list to see the graphs change. This particular graph tells a story of a salesperson, their profits by year, and a breakdown of the categories of goods that they sold. Your dashboard should now look like this:
+- Now you will make the dashboard interactive. Click on the **Orders by Person** visualization. A menu should appear in the top-right corner of the visualization.
+- Click **Use as Filter**. This will allow you to use the **Orders by Person** visualization to filter the other visualizations on the dashboard.
+- Click on any name in the **Orders by Person** visualization. The other visualizations will automatically update to display data for the selected person.
+- The dashboard now tells a story about a salesperson, including their profits by year and a breakdown of the categories of goods they sold. Your dashboard should now look like this:
 
 <img src="images\activity-3\2-realtime-changes.png" alt="interactive dashboard example" style="width:720px;">
 
@@ -73,9 +81,9 @@ This part will cover the creation of an interactive dashboard based on the previ
           <img src="images\activity-3\2-realtime-changes.gif" alt="interactive dashboard animated example" style="width:720px;"><br>
      </div>
 
-
-
--   Note that you can make any of the graphs on the dashboard your filtered item to tell a different story. If you click on the Date/category/profit graph, click on the filter icon, and then select **Bookcases** in the **Furniture** section (click directly on the line on the graph), it will display how many chairs were sold in a year by a particular person. Feel free to play around with these filters to see if you can come up with a different interpretation!
+- You can make any of the visualizations on the dashboard act as a filter to tell a different story. For example, click on the **Date/Category/Profit** visualization and select **Use as Filter** from the menu in the top-right corner.
+- Then, select **Bookcases** under the **Furniture** category by clicking directly on the corresponding line in the visualization. The other visualizations will update to display data for that selection.
+- Feel free to experiment with the different filters and selections to see if you can come up with a different interpretation of the data!
 
 
 <button onclick="toggle('gif4')">Show/Hide Animation</button>
