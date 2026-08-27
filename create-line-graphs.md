@@ -51,11 +51,12 @@ Since a graph showing all countries may be overwhelming, now try to create a sep
 <details>
 <summary>View suggested solution</summary>
 
-1. In your new duplicated sheet, drag either the Country Name field to the Filters shelf, then select the country or countries you would like to display (you may need to click None below the country list to unselect all first). Click OK. Rename your new graph accordingly.
+1. In your new duplicated sheet, drag the **Country Name (group)** field to the **Filters** shelf, then select the country or countries you would like to display (you may need to click **None** below the country list to unselect all first). Click OK. Rename your new graph accordingly.
 <br/>
    <img src="images\Tableau-2-6.gif" alt="bottom toolbar" style="width:480px;">
 <br/>  
-2. Alternatively, you click on the Top tab in the filter option (if you want to go back to it, right-click on Country Name under Filters and click on Edit filter), and choose the top 10 (or 20) countries with the highest average annual C02 emissions.
+2. Right-click on **Country Name** under **Filters** and then click **Edit Filter**. Click the **Top** tab as shown in the image below.
+3. Now you can choose the top 10 (or 20) countries with the highest average annual C02 emissions.
 <br/>
    <img src="images\filter-countries.png" alt="top-10-countries" style="width:480px;">
 <br/>  
