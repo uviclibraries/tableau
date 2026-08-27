@@ -15,7 +15,7 @@ Now, create a bar plot showing the countries with the 10 highest levels of CO2 e
 
 *Hint*: Take advantage of the filter option to filter both by year and by countries with the highest emissions. To filter by countries with the highest emissions in 2023, you will want to use the **Top** tab in the filtering window, and select the "By formula" option. Here's a function that sums the annual emissions, but only for the 2023 emissions of each country: 
 ```
-SUM(IIF([Year (co-emissions-per-capita.csv)]=2023, [Annual CO₂ emissions (per capita)], 0))
+SUM(IIF([Year (co-emissions-per-capita.csv)]=2023, [CO₂ emissions per capita],0))
 ```
 <details>
 <summary>Formula explanation</summary>
@@ -27,15 +27,16 @@ The IIF function assesses the logical expression Year = 2023 and returns the Ann
 <details>
 <summary>View suggested solution</summary>
 
-1.	Drag the Annual CO2 emissions (per capita) field into the Columns shelf and either the Entity or Country Name field into the Rows shelf.
+1.	Drag the **CO2 emissions per capita** field into the **Columns** shelf and either the **Entity** or **Country Name **field into the **Rows** shelf.
 <br/>
    <img src="images\barchart1.gif" alt="bottom toolbar" style="width:480px;">
 <br/> 
-2.	Drag the Year field to the Filters shelf. To show data from 2023 only, enter 2023 to 2023 in the Range of Values tab. Click OK.
+2.	Drag the **Year** field to the **Filters** shelf. To show data from 2023 only, enter 2023 to 2023 in the Range of Values tab. Click OK.
 <br/>
    <img src="images\barchart2.gif" alt="bottom toolbar" style="width:480px;">
 <br/> 
-3.	Drag either the Country Name or Entity field into the Filters shelf. To show the top 10 countries with the highest CO2 emissions, click the Top tab in the window that pops up, select By formula and type `SUM(IIF([Year (co-emissions-per-capita.csv)]=2023, [Annual CO₂ emissions (per capita)], 0))`. Click OK.
+3.	Drag either the **Country Name** or **Entity** field into the **Filters** shelf. To show the top 10 countries with the highest CO2 emissions, click the **Top** tab in the window that pops up, select **By formula** and type `SUM(IIF([Year (co-emissions-per-capita.csv)]=2023, [CO₂ emissions per capita],0))
+`. Click OK.
 <br/>
    <img src="images\barchart3.gif" alt="bottom toolbar" style="width:480px;">
 <br/> 
