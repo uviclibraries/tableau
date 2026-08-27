@@ -17,7 +17,7 @@ Now, create a world map showing the average annual CO2 emissions for all countri
 
 <details>
 <summary>View suggested solution</summary>
-1.	Drag the Country Name field into the Marks shelf. If a map doesn’t show up automatically, in the Marks shelf toggle and change Automatic to Map.
+1.	Drag the Country Name field into the Marks shelf. If a map doesn’t show up automatically, toggle and change Automatic to Map in the Marks shelf.
 <br/>
 <img src="images\Tableau-5-1.gif" alt="bottom toolbar" style="width:480px;">
 <br/>
@@ -25,7 +25,7 @@ Now, create a world map showing the average annual CO2 emissions for all countri
 <br/>
 <img src="images\Tableau-5-2.gif" alt="bottom toolbar" style="width:480px;">
 <br/>
-3.	Drag the Annual CO2 emission (per capita) field to the Marks shelf. Hover over it in the Marks shelf, click the arrow, hover over Measure, then select Average. This will generate average CO2 emissions for the specified year range. Click the icon beside the field and select Color. If you want to edit the colours, hover over the title of the legend on the right side of the window, and click Edit colors in the dropdown.
+3.	Drag the CO2 emission per capita field to the Marks shelf. Hover over it in the Marks shelf, click the arrow, hover over Measure, then select Average. This will generate average CO2 emissions for the specified year range. Click the icon beside the field and select Color. If you want to edit the colours, hover over the title of the legend on the right side of the window, and click Edit colors in the dropdown.
 <br/>
 <img src="images\Tableau-5-3.gif" alt="bottom toolbar" style="width:480px;">
 <br/>
