@@ -16,15 +16,16 @@ Now, create a scatter plot showing the relationship between CO2 emissions per ca
 <details>
 <summary>View suggested solution</summary>
 
-1.	Under the CO2 emissions table heading on the left pane, click and drag the Annual CO2 emissions (per capita) field to the Rows bar. Under the GDP per capita table heading, click and drag the GDP per capita field to the Columns bar. Click and drag the Country Name field (under the same heading) to the Marks shelf. There, click the icon beside Country Name and select Colors. You have created a scatter plot with cumulative CO2 emissions per capita (cumulative because Tableau is doing by default the sum of emissions per country, as you can see under Columns and Rows on the top) on the y-axis and cumulative GDP per capita on the x-axis from 1750-2023, with a legend showing countries.
+1.	Under the CO2 emissions table heading on the left pane, click and drag the **CO2 emissions (per capita)** field to the Rows bar. Under the GDP per capita table heading, click and drag the **GDP per capita** field to the Columns bar. Click and drag the **Country Name (group)** field (under the same heading) to the Marks shelf. There, click the icon beside Country Name and select **Colors**. You have created a scatter plot with cumulative CO2 emissions per capita (cumulative because Tableau is doing by default the sum of emissions per country, as you can see under Columns and Rows on the top) on the y-axis and cumulative GDP per capita on the x-axis from 1750-2023, with a legend showing countries.
 <br/> 
    <img src="images\Tableau-3-1.gif" alt="bottom toolbar" style="width:480px;">
 <br/>       
-2.	To specify a time frame for the chart, drag the Year field from under either table heading to the Filters shelf. Enter a year range, such as 2013 to 2023 (os use the most recent year available, the dataset is updated over the years). Click OK.
+2.	To specify a time frame for the chart, drag the **Year** field from under either table heading to the **Filters** shelf. Enter a year range, such as 2013 to 2023 (or use the most recent year available, and the dataset is updated over the years). Click OK.
 <br/>
    <img src="images\Tableau-3-2.gif" alt="bottom toolbar" style="width:480px;">
 <br/> 
 3.	Name the chart CO2 Emissions by GDP per Capita per Country (2013-2023).
+   
 4.	Rename the y-axis to "Cumulative annual CO₂ emissions (per capita)" and the x-axis to "GDP per capita"
 
 </details>
