@@ -14,7 +14,7 @@ We are continuing to use the **Global Superstore Orders 2016** Excel spreadsheet
 
 In this activity, we will create different types of visualizations in Tableau to explore different trends in the data. In the next activity, you will learn how to combine these visualizations into a single interactive dashboard.
 
-## 1. **Treemap: Total Profit by Region**
+### 1. **Treemap: Total Profit by Region**
 - Create a new worksheet by clicking the <img src="images\activity-2\icon.png" alt="new worksheet icon" style="width:30px;"> icon at the bottom of the window.
 - From the **Dimensions** list, right-click **Region** and drag it to the **Rows** shelf
 
@@ -37,7 +37,7 @@ In this activity, we will create different types of visualizations in Tableau to
 
     <img src="images\activity-2\treemaps.png" alt="treemaps" style="width:720px;">
 
-## 2. **World Map: Total Sales by Country**
+### 2. **World Map: Total Sales by Country**
 - Create a new worksheet by clicking the <img src="images\activity-2\icon.png" alt="new worksheet icon" style="width:30px;"> icon at the bottom of the window
 - From the **Dimensions** list, right-click **Country** and drag it to the central **Drop field here** area in the middle of the screen. Select **Country** from the menu that appears
 - To create a new measure, click **Analysis** in the top menu bar and select **Create Calculated Field** from the drop-down menu. 
@@ -76,7 +76,7 @@ In this activity, we will create different types of visualizations in Tableau to
     
   <img src="images\activity-2\final-color.png" alt="final map output" style="width:720px;">
 
-## 3. **Line & Bar Chart (Dual Combo): Quarterly Profit and Number of Sales by Product 2012-2015**
+### 3. **Line & Bar Chart (Dual Combo): Quarterly Profit and Number of Sales by Product 2012-2015**
     
 <img src="images\activity-2\new-sheet.png" alt="drop field menu" style="float:right;width:240px;">
     
@@ -108,7 +108,7 @@ In this activity, we will create different types of visualizations in Tableau to
 
     <img src="images\activity-2\linebar.png" alt="final linebar output" style="width:720px;">
 
-## 4. **Building Sales Graphs for the Interactive Dashboard**<br>
+### 4. **Building Sales Graphs for the Interactive Dashboard**<br>
 
 Above, you learned how to create different types of graphs. Now we will create additional charts that we will later combine into a single interactive dashboard.
 
@@ -138,7 +138,7 @@ Above, you learned how to create different types of graphs. Now we will create a
             
        <img src="images\activity-2\new-worksheet.png" alt="new worksheet button" style="float:right;width:200px;">
     
-## 5. **Orders by Person Graph**
+### 5. **Orders by Person Graph**
    - Click the **New Worksheet** icon at the bottom of the window to create a new worksheet
    - From the **People** table in the **Data** pane, click and drag **Person** to the **Rows** shelf
         
@@ -154,7 +154,7 @@ Above, you learned how to create different types of graphs. Now we will create a
 
     <img src="images\activity-2\sub-category.png" alt="filters and marks menus" style="float:right;width:120px;">
     
-## 6.  **Date/Category/Profit Graph**
+### 6.  **Date/Category/Profit Graph**
 - Click the **New Worksheet** icon at the bottom of the window to create a new worksheet
 - From the **Orders** table in the **Data** pane, click and drag **Ship Date** to the **Columns** shelf
 - From the **Orders** table in the **Data** pane, click and drag **Category** to the **Columns** shelf
